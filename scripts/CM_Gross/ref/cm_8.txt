@@ -1,0 +1,15 @@
+j(E) = 20^3
+N_E = 23
+
+p = 5 mod 8
+[          8           2           4]
+[          2 1/2*p + 1/2           1]
+[          4           1       p + 2]
+Type 2 matrix with parameters [1, 2].
+
+p = 7 mod 8
+[          8           2           0]
+[          2 1/2*p + 1/2           0]
+[          0           0           p]
+Type 1 matrix with parameters [1].
+

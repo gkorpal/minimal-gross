@@ -1,0 +1,21 @@
+j(E) = -15^3
+N_E = 13
+
+p = 3 mod 7
+[           7            3            2]
+[           3  4/7*p + 9/7 -2/7*p + 6/7]
+[           2 -2/7*p + 6/7  8/7*p + 4/7]
+Type 4 matrix with parameters [3, 2].
+
+p = 5 mod 7
+[           7            1            3]
+[           1  4/7*p + 1/7 -2/7*p + 3/7]
+[           3 -2/7*p + 3/7  8/7*p + 9/7]
+Type 4 matrix with parameters [1, 3].
+
+p = 6 mod 7
+[          7           2           1]
+[          2 4/7*p + 4/7 2/7*p + 2/7]
+[          1 2/7*p + 2/7 8/7*p + 1/7]
+Type 3 matrix with parameters [1].
+

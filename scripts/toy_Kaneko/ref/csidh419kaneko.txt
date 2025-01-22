@@ -1,0 +1,280 @@
+Toy CSIDH prime p = 419 = 4*3*5*7-1
+
+**********
+D1=1
+No Gross lattice found.
+
+**********
+D1=2
+No Gross lattice found.
+
+**********
+D1=3
+[   3    1    1]
+[   1  559 -279]
+[   1 -279  559]
+Type 4 matrix with parameters [1, 1].
+Belongs to CSIDH graph.
+
+**********
+D1=4
+[  4   0   2]
+[  0 419   0]
+[  2   0 420]
+Type 2 matrix with parameters [0, 1].
+Belongs to CSIDH graph.
+
+**********
+D1=5
+No Gross lattice found.
+
+**********
+D1=6
+No Gross lattice found.
+
+**********
+D1=7
+[  7   2   1]
+[  2 240 120]
+[  1 120 479]
+Type 3 matrix with parameters [1].
+Belongs to CSIDH graph.
+
+**********
+D1=8
+No Gross lattice found.
+
+**********
+D1=9
+No Gross lattice found.
+
+**********
+D1=10
+No Gross lattice found.
+
+**********
+D1=11
+No Gross lattice found.
+
+**********
+D1=12
+[ 12   2   0]
+[  2 140   0]
+[  0   0 419]
+Type 1 matrix with parameters [1].
+Does not belong to CSIDH graph.
+
+**********
+D1=13
+No Gross lattice found.
+
+**********
+D1=14
+No Gross lattice found.
+
+**********
+D1=15
+[ 15   2   1]
+[  2 112  56]
+[  1  56 447]
+Type 3 matrix with parameters [1].
+Belongs to CSIDH graph.
+
+[ 15   7   4]
+[  7 115 -54]
+[  4 -54 448]
+Type 4 matrix with parameters [7, 4].
+Belongs to CSIDH graph.
+
+**********
+D1=16
+[ 16   6   8]
+[  6 107   3]
+[  8   3 423]
+Type 2 matrix with parameters [3, 4].
+Belongs to CSIDH graph.
+
+**********
+D1=17
+No Gross lattice found.
+
+**********
+D1=18
+No Gross lattice found.
+
+**********
+D1=19
+No Gross lattice found.
+
+**********
+D1=20
+[ 20   2   0]
+[  2  84   0]
+[  0   0 419]
+Type 1 matrix with parameters [1].
+Does not belong to CSIDH graph.
+
+[ 20   8  10]
+[  8  87   4]
+[ 10   4 424]
+Type 2 matrix with parameters [4, 5].
+Belongs to CSIDH graph.
+
+**********
+D1=21
+No Gross lattice found.
+
+**********
+D1=22
+No Gross lattice found.
+
+**********
+D1=23
+[ 23   7   8]
+[  7  75 -34]
+[  8 -34 440]
+Type 4 matrix with parameters [7, 8].
+Belongs to CSIDH graph.
+
+**********
+D1=24
+No Gross lattice found.
+
+**********
+D1=25
+No Gross lattice found.
+
+**********
+D1=26
+No Gross lattice found.
+
+**********
+D1=27
+[ 27   5  11]
+[  5  63 -29]
+[ 11 -29 439]
+Type 4 matrix with parameters [5, 11].
+Belongs to CSIDH graph.
+
+**********
+D1=28
+[ 28   2   0]
+[  2  60   0]
+[  0   0 419]
+Type 1 matrix with parameters [1].
+Does not belong to CSIDH graph.
+
+**********
+D1=29
+No Gross lattice found.
+
+**********
+D1=30
+No Gross lattice found.
+
+**********
+D1=31
+No Gross lattice found.
+
+**********
+D1=32
+No Gross lattice found.
+
+**********
+D1=33
+No Gross lattice found.
+
+**********
+D1=34
+No Gross lattice found.
+
+**********
+D1=35
+[ 35   2   1]
+[  2  48  24]
+[  1  24 431]
+Type 3 matrix with parameters [1].
+Belongs to CSIDH graph.
+
+[ 35  12   6]
+[ 12  52  26]
+[  6  26 432]
+Type 3 matrix with parameters [6].
+Belongs to CSIDH graph.
+
+**********
+D1=36
+[ 36   4  18]
+[  4  47   2]
+[ 18   2 428]
+Type 2 matrix with parameters [2, 9].
+Belongs to CSIDH graph.
+
+[ 36  14   0]
+[ 14  52   0]
+[  0   0 419]
+Type 1 matrix with parameters [7].
+Does not belong to CSIDH graph.
+
+**********
+D1=37
+No Gross lattice found.
+
+**********
+D1=38
+No Gross lattice found.
+
+**********
+D1=39
+[ 39   1  19]
+[  1  43 -21]
+[ 19 -21 439]
+Type 4 matrix with parameters [1, 19].
+Belongs to CSIDH graph.
+
+[ 39  14   7]
+[ 14  48  24]
+[  7  24 431]
+Type 3 matrix with parameters [7].
+Belongs to CSIDH graph.
+
+**********
+D1=40
+No Gross lattice found.
+
+**********
+D1=41
+No Gross lattice found.
+
+**********
+D1=42
+No Gross lattice found.
+
+**********
+D1=43
+[ 43   1  21]
+[  1  39 -19]
+[ 21 -19 439]
+Type 4 matrix with parameters [1, 21].
+Belongs to CSIDH graph.
+
+**********
+D1=44
+No Gross lattice found.
+
+**********
+D1=45
+No Gross lattice found.
+
+**********
+D1=46
+No Gross lattice found.
+
+**********
+D1=47
+[ 47   4   2]
+[  4  36  18]
+[  2  18 428]
+Type 3 matrix with parameters [2].
+Belongs to CSIDH graph.
+

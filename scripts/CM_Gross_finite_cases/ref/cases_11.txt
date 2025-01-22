@@ -1,0 +1,17 @@
+j(E) = -32^3
+
+Obtaining Gram matrix of the minimal Gross lattice using LLL-reduction.
+
+p = 29 is 7 mod 11.
+Maximal order: O(11,2) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 2/11*i - 1/11*k]
+Gross lattice: [1/11*i + 16/11*k, j + k, 2*k]
+LLL-reduced Gram matrix:
+[11 -4 -2]
+[-4 12  6]
+[-2  6 32]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[11  4  2]
+[ 4 12  6]
+[ 2  6 32]
+Type 3 matrix with parameters [2].
+

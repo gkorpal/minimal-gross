@@ -1,0 +1,27 @@
+j(E) = 66^3
+N_E = 67
+
+p = 3 mod 16
+[         16           6           8]
+[          6 1/4*p + 9/4           3]
+[          8           3       p + 4]
+Type 2 matrix with parameters [3, 4].
+
+p = 7 mod 16
+[         16           6           0]
+[          6 1/4*p + 9/4           0]
+[          0           0           p]
+Type 1 matrix with parameters [3].
+
+p = 11 mod 16
+[         16           2           8]
+[          2 1/4*p + 1/4           1]
+[          8           1       p + 4]
+Type 2 matrix with parameters [1, 4].
+
+p = 15 mod 16
+[         16           2           0]
+[          2 1/4*p + 1/4           0]
+[          0           0           p]
+Type 1 matrix with parameters [1].
+

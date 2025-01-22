@@ -1,0 +1,361 @@
+The LLL-reduced Gram matrices of all maximal orders with the first successive minima equal to 20 and lying in Bp for p = 17 (mod 20) lying between 1 and 1500.
+
+p = 17.
+Quaternion Algebra: i^2 = -3 and j^2 = -17.
+No maximal order with D1=20 found.
+
+p = 37.
+Quaternion Algebra: i^2 = -2 and j^2 = -37.
+No maximal order with D1=20 found.
+
+p = 97.
+Quaternion Algebra: i^2 = -7 and j^2 = -97.
+Maximal order with D1=20: [1, 11/21*i - 1/6*j + 1/42*k, 1/2 + 41/42*i + 1/6*j - 1/42*k, 13/21*i + 1/6*j + 5/42*k].
+LLL-reduced Gram matrix:
+[20  2  6]
+[ 2 39 20]
+[ 6 20 60]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[20  2  6]
+[ 2 39 20]
+[ 6 20 60]
+The j-invariant does not belong to Fp, since D3 is less than 63.
+
+p = 137.
+Quaternion Algebra: i^2 = -3 and j^2 = -137.
+Maximal order with D1=20: [1, 6/7*i - 1/14*j + 1/14*k, 1/2 + 31/42*i - 3/14*j - 5/42*k, -22/21*i - 5/14*j + 1/42*k].
+LLL-reduced Gram matrix:
+[20  2  6]
+[ 2 55 28]
+[ 6 28 84]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[20  2  6]
+[ 2 55 28]
+[ 6 28 84]
+The j-invariant does not belong to Fp, since D3 is less than 87.
+
+p = 157.
+Quaternion Algebra: i^2 = -2 and j^2 = -157.
+Maximal order with D1=20: [1, -23/20*i - 1/10*j + 1/20*k, 1/2 - 9/10*i - 1/10*j - 1/5*k, -27/10*i + 1/5*j - 1/10*k].
+LLL-reduced Gram matrix:
+[20  2  6]
+[ 2 63 32]
+[ 6 32 96]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[20  2  6]
+[ 2 63 32]
+[ 6 32 96]
+The j-invariant does not belong to Fp, since D3 is less than 99.
+
+p = 197.
+Quaternion Algebra: i^2 = -2 and j^2 = -197.
+Maximal order with D1=20: [1, 37/28*i - 1/14*j + 1/28*k, 1/2 - 4/7*i + 1/14*j + 3/14*k, -12/7*i - 2/7*j + 1/7*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2  79  40]
+[  6  40 120]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2  79  40]
+[  6  40 120]
+The j-invariant does not belong to Fp, since D3 is less than 123.
+
+p = 257.
+Quaternion Algebra: i^2 = -3 and j^2 = -257.
+Maximal order with D1=20: [1, -4/33*i + 1/11*j + 2/33*k, 1/2 - 155/66*i + 3/22*j - 5/66*k, -104/33*i - 3/22*j + 5/66*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 103  52]
+[  6  52 156]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 103  52]
+[  6  52 156]
+The j-invariant does not belong to Fp, since D3 is less than 159.
+
+p = 277.
+Quaternion Algebra: i^2 = -2 and j^2 = -277.
+Maximal order with D1=20: [1, -13/20*i - 1/10*j - 1/20*k, 1/2 - 29/20*i + 1/5*j - 3/20*k, -87/20*i + 1/10*j + 1/20*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 111  56]
+[  6  56 168]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 111  56]
+[  6  56 168]
+The j-invariant does not belong to Fp, since D3 is less than 171.
+
+p = 317.
+Quaternion Algebra: i^2 = -2 and j^2 = -317.
+Maximal order with D1=20: [1, -7/20*i - 1/10*j + 1/20*k, 1/2 + 31/20*i - 1/5*j - 3/20*k, 93/20*i - 1/10*j + 1/20*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 127  64]
+[  6  64 192]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 127  64]
+[  6  64 192]
+The j-invariant does not belong to Fp, since D3 is less than 195.
+
+p = 337.
+Quaternion Algebra: i^2 = -11 and j^2 = -337.
+Maximal order with D1=20: [1, -40/121*i + 1/11*j + 2/121*k, 1/2 - 345/242*i - 1/22*j - 13/242*k, -12/121*i + 5/22*j - 23/242*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 135  68]
+[  6  68 204]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 135  68]
+[  6  68 204]
+The j-invariant does not belong to Fp, since D3 is less than 207.
+
+p = 397.
+Quaternion Algebra: i^2 = -2 and j^2 = -397.
+Maximal order with D1=20: [1, -53/40*i - 1/20*j - 1/40*k, 1/2 - 9/8*i + 1/4*j - 1/8*k, -27/8*i + 1/4*j + 1/8*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 159  80]
+[  6  80 240]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 159  80]
+[  6  80 240]
+The j-invariant does not belong to Fp, since D3 is less than 243.
+
+p = 457.
+Quaternion Algebra: i^2 = -11 and j^2 = -457.
+Maximal order with D1=20: [1, 2/55*i - 1/10*j + 1/110*k, 1/2 - 91/110*i - 1/10*j - 9/110*k, 92/55*i - 1/10*j - 9/110*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 183  92]
+[  6  92 276]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 183  92]
+[  6  92 276]
+The j-invariant does not belong to Fp, since D3 is less than 279.
+
+p = 557.
+Quaternion Algebra: i^2 = -2 and j^2 = -557.
+Maximal order with D1=20: [1, -17/28*i + 1/14*j - 1/28*k, 1/2 + 27/14*i + 3/14*j + 1/7*k, 81/14*i + 1/7*j - 1/14*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 223 112]
+[  6 112 336]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 223 112]
+[  6 112 336]
+The j-invariant does not belong to Fp, since D3 is less than 339.
+
+p = 577.
+Quaternion Algebra: i^2 = -7 and j^2 = -577.
+Maximal order with D1=20: [1, 2/11*i + 1/11*j, 1/2 + 349/154*i - 1/22*j - 1/14*k, 235/77*i - 1/22*j + 1/14*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 231 116]
+[  6 116 348]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 231 116]
+[  6 116 348]
+The j-invariant does not belong to Fp, since D3 is less than 351.
+
+p = 617.
+Quaternion Algebra: i^2 = -3 and j^2 = -617.
+Maximal order with D1=20: [1, -11/14*i + 1/28*j + 1/28*k, 1/2 - 65/42*i + 3/14*j - 5/42*k, -65/14*i - 3/28*j - 3/28*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 247 124]
+[  6 124 372]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 247 124]
+[  6 124 372]
+The j-invariant does not belong to Fp, since D3 is less than 375.
+
+p = 677.
+Quaternion Algebra: i^2 = -2 and j^2 = -677.
+Maximal order with D1=20: [1, 53/44*i + 1/22*j + 1/44*k, 1/2 + 73/44*i + 1/11*j - 9/44*k, 219/44*i - 5/22*j - 5/44*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 271 136]
+[  6 136 408]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 271 136]
+[  6 136 408]
+The j-invariant does not belong to Fp, since D3 is less than 411.
+
+p = 757.
+Quaternion Algebra: i^2 = -2 and j^2 = -757.
+Maximal order with D1=20: [1, 169/140*i + 1/70*j + 1/28*k, 1/2 - 513/140*i - 1/35*j + 5/28*k, -5/28*i - 5/14*j + 3/28*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 303 152]
+[  6 152 456]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 303 152]
+[  6 152 456]
+The j-invariant does not belong to Fp, since D3 is less than 459.
+
+p = 797.
+Quaternion Algebra: i^2 = -2 and j^2 = -797.
+Maximal order with D1=20: [1, -59/100*i - 3/50*j - 3/100*k, 1/2 - 49/20*i + 1/5*j - 3/20*k, -147/20*i + 1/10*j + 1/20*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 319 160]
+[  6 160 480]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 319 160]
+[  6 160 480]
+The j-invariant does not belong to Fp, since D3 is less than 483.
+
+p = 857.
+Quaternion Algebra: i^2 = -3 and j^2 = -857.
+Maximal order with D1=20: [1, 102/121*i + 1/22*j - 5/242*k, 1/2 + 2975/726*i - 2/11*j + 19/363*k, 202/121*i - 3/11*j - 18/121*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 343 172]
+[  6 172 516]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 343 172]
+[  6 172 516]
+The j-invariant does not belong to Fp, since D3 is less than 519.
+
+p = 877.
+Quaternion Algebra: i^2 = -2 and j^2 = -877.
+Maximal order with D1=20: [1, 47/44*i + 1/22*j - 1/44*k, 1/2 - 83/44*i - 1/11*j - 9/44*k, -249/44*i + 5/22*j - 5/44*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 351 176]
+[  6 176 528]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 351 176]
+[  6 176 528]
+The j-invariant does not belong to Fp, since D3 is less than 531.
+
+p = 937.
+Quaternion Algebra: i^2 = -7 and j^2 = -937.
+Maximal order with D1=20: [1, -31/63*i + 1/18*j + 1/126*k, 1/2 - 127/42*i - 1/6*j - 1/42*k, -103/63*i + 1/18*j - 17/126*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 375 188]
+[  6 188 564]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 375 188]
+[  6 188 564]
+The j-invariant does not belong to Fp, since D3 is less than 567.
+
+p = 977.
+Quaternion Algebra: i^2 = -3 and j^2 = -977.
+Maximal order with D1=20: [1, 1/14*i - 1/28*j - 1/28*k, 1/2 + 7/3*i - 1/4*j + 1/12*k, 7*i].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 391 196]
+[  6 196 588]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 391 196]
+[  6 196 588]
+The j-invariant does not belong to Fp, since D3 is less than 591.
+
+p = 997.
+Quaternion Algebra: i^2 = -2 and j^2 = -997.
+Maximal order with D1=20: [1, 43/44*i + 1/22*j - 1/44*k, 1/2 + 26/11*i - 5/22*j - 3/22*k, 78/11*i - 2/11*j + 1/11*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 399 200]
+[  6 200 600]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 399 200]
+[  6 200 600]
+The j-invariant does not belong to Fp, since D3 is less than 603.
+
+p = 1097.
+Quaternion Algebra: i^2 = -3 and j^2 = -1097.
+Maximal order with D1=20: [1, -21/22*i - 1/44*j - 1/44*k, 1/2 - 58/33*i - 9/44*j + 17/132*k, -58/11*i + 3/22*j + 3/22*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 439 220]
+[  6 220 660]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 439 220]
+[  6 220 660]
+The j-invariant does not belong to Fp, since D3 is less than 663.
+
+p = 1117.
+Quaternion Algebra: i^2 = -2 and j^2 = -1117.
+Maximal order with D1=20: [1, -67/56*i + 1/28*j + 1/56*k, 1/2 + 15/8*i + 1/4*j - 1/8*k, 45/8*i + 1/4*j + 1/8*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 447 224]
+[  6 224 672]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 447 224]
+[  6 224 672]
+The j-invariant does not belong to Fp, since D3 is less than 675.
+
+p = 1217.
+Quaternion Algebra: i^2 = -3 and j^2 = -1217.
+Maximal order with D1=20: [1, -86/231*i - 1/77*j - 8/231*k, 1/2 + 713/462*i + 45/154*j - 25/462*k, 1678/231*i + 5/154*j - 37/462*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 487 244]
+[  6 244 732]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 487 244]
+[  6 244 732]
+The j-invariant does not belong to Fp, since D3 is less than 735.
+
+p = 1237.
+Quaternion Algebra: i^2 = -2 and j^2 = -1237.
+Maximal order with D1=20: [1, 17/40*i + 1/20*j + 1/40*k, 1/2 - 61/20*i + 1/5*j - 3/20*k, -183/20*i + 1/10*j + 1/20*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 495 248]
+[  6 248 744]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 495 248]
+[  6 248 744]
+The j-invariant does not belong to Fp, since D3 is less than 747.
+
+p = 1277.
+Quaternion Algebra: i^2 = -2 and j^2 = -1277.
+Maximal order with D1=20: [1, 13/40*i + 1/20*j + 1/40*k, 1/2 + 129/40*i + 3/20*j - 7/40*k, 387/40*i - 1/20*j - 1/40*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 511 256]
+[  6 256 768]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 511 256]
+[  6 256 768]
+The j-invariant does not belong to Fp, since D3 is less than 771.
+
+p = 1297.
+Quaternion Algebra: i^2 = -11 and j^2 = -1297.
+Maximal order with D1=20: [1, -83/154*i - 1/28*j - 1/308*k, 1/2 - 69/77*i + 5/28*j - 23/308*k, -207/77*i + 2/7*j + 2/77*k].
+LLL-reduced Gram matrix:
+[ 20   2   6]
+[  2 519 260]
+[  6 260 780]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   6]
+[  2 519 260]
+[  6 260 780]
+The j-invariant does not belong to Fp, since D3 is less than 783.
+

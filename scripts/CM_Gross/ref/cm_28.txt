@@ -1,0 +1,39 @@
+j(E) = 255^3
+N_E = 181
+
+p = 3 mod 28
+[          28           10            0]
+[          10 1/7*p + 25/7            0]
+[           0            0            p]
+Type 1 matrix with parameters [5].
+
+p = 5 mod 28
+[          28            8           14]
+[           8 1/7*p + 16/7            4]
+[          14            4        p + 7]
+Type 2 matrix with parameters [4, 7].
+
+p = 13 mod 28
+[          28           12           14]
+[          12 1/7*p + 36/7            6]
+[          14            6        p + 7]
+Type 2 matrix with parameters [6, 7].
+
+p = 17 mod 28
+[         28           4          14]
+[          4 1/7*p + 4/7           2]
+[         14           2       p + 7]
+Type 2 matrix with parameters [2, 7].
+
+p = 19 mod 28
+[         28           6           0]
+[          6 1/7*p + 9/7           0]
+[          0           0           p]
+Type 1 matrix with parameters [3].
+
+p = 27 mod 28
+[         28           2           0]
+[          2 1/7*p + 1/7           0]
+[          0           0           p]
+Type 1 matrix with parameters [1].
+

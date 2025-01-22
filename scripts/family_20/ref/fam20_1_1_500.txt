@@ -1,0 +1,38 @@
+The LLL-reduced Gram matrices of all maximal orders with the first successive minima equal to 20 and lying in Bp for p = 1 (mod 20) lying between 1 and 500.
+
+p = 41.
+Quaternion Algebra: i^2 = -3 and j^2 = -41.
+No maximal order with D1=20 found.
+
+p = 61.
+Quaternion Algebra: i^2 = -2 and j^2 = -61.
+No maximal order with D1=20 found.
+
+p = 101.
+Quaternion Algebra: i^2 = -2 and j^2 = -101.
+No maximal order with D1=20 found.
+
+p = 181.
+Quaternion Algebra: i^2 = -2 and j^2 = -181.
+No maximal order with D1=20 found.
+
+p = 241.
+Quaternion Algebra: i^2 = -7 and j^2 = -241.
+No maximal order with D1=20 found.
+
+p = 281.
+Quaternion Algebra: i^2 = -3 and j^2 = -281.
+No maximal order with D1=20 found.
+
+p = 401.
+Quaternion Algebra: i^2 = -3 and j^2 = -401.
+No maximal order with D1=20 found.
+
+p = 421.
+Quaternion Algebra: i^2 = -2 and j^2 = -421.
+No maximal order with D1=20 found.
+
+p = 461.
+Quaternion Algebra: i^2 = -2 and j^2 = -461.
+No maximal order with D1=20 found.
+

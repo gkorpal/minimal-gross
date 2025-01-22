@@ -1,0 +1,9 @@
+j(E) = 1728 = 12^3
+N_E = 7
+
+p = 3 mod 4
+[    4     0     2]
+[    0     p     0]
+[    2     0 p + 1]
+Type 2 matrix with parameters [0, 1].
+
