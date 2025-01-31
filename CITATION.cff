@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Gross Lattices of Supersingular Elliptic Curves
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Chenfeng
+    family-names: He
+    email: chenfenghe163@gmail.com
+    affiliation: Eötvös Loránd University
+  - given-names: Gaurish
+    family-names: Korpal
+    email: gkorpal@arizona.edu
+    affiliation: University of Arizona
+  - given-names: 'Ha '
+    family-names: Tran
+    name-particle: 'T. N. '
+    email: hatran1104@gmail.com
+    affiliation: University of Alberta - Augustana Campus
+  - given-names: 'Christelle '
+    family-names: Vincent
+    email: christelle.vincent@uvm.edu
+    affiliation: University of Vermont
+repository-code: 'https://github.com/gkorpal/minimal-gross'
+abstract: >-
+  This repository contains the implementation of the
+  algorithms and the results of the computations described
+  in the paper.
+license: MIT
