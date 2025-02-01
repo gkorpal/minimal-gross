@@ -8,6 +8,8 @@ def get_maximal_order(a, b, d):
     It constructs a quaternion algebra with i^2=-a and j^2=-b, and then gives
     the maximal order that contains a Gross lattice with the first successive 
     minima, D1, equal to d.
+
+    If d = 0 then this function outputs matrices for all orders.
     """
     results = []
     m = magma
@@ -31,5 +33,7 @@ def get_maximal_order(a, b, d):
             Gred = m.Matrix([[m.Integers()(Gred[i][j]) for j in range(1, n+1)] for i in range(1, n+1)])  # Convert entries to Magma integers
             if Gred[1][1] == d:
                 results.append((basis, Gred)) # the maximal order and Gram matrix of Gross lattice.
+            elif d == 0:
+                results.append((basis, Gred)) # all the maximal orders and Gram matrix of Gross lattice.
     
     return results

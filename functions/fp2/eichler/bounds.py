@@ -27,7 +27,7 @@ def d3_bound(*args):
     elif 0 <= D3 <= fp2bound:
         return [False, floor(fp2bound)]
     else:
-        raise ValueError("D3 bound test failed.")
+        return [False, False]
 
 def minimal_basis_matrix(M):
     r"""

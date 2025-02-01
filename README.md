@@ -73,6 +73,9 @@ scripts/
 ├── family_20_2mod3/
 │   ├── fam2mod3.sage
 │   └── ref/
+├── finite_cases/
+│   ├── finite.sage
+│   └── ref/
 ├── NE_values/
 │   ├── NEvalue.sage
 │   └── ref/
@@ -109,22 +112,27 @@ Contains the script that computes the j-invariants of all maximal orders with th
 - One can run the script by navigating to this directory and then executing `$ sage fam2mod3.sage <c> <M> <N>` where `<c>` is $\{13,17\}$ and $0<M<N$.
 - The `ref/` directory contains outputs for all 10 values of `c`. For example, `$ sage fam2mod3.sage 13 20 1000` will generate `fam2mod3_13_20_1000.txt` that contains all 10 Gram matrices of interest.
 
-#### B.5 `NE_values`
+#### B.5 `finite_cases`
+Contains the script that computes LLL-reduced Gram matrices of all maximal orders with the first successive minima equal to $D_1\leq 2*p^{2/3}$ and lying in $B_{p,\infty}$ for $p$ lying between M and N.
+- One can run the script by navigating to this directory and then executing `$ sage finite.sage <M> <N>` where $0<M<N$.
+- The `ref/` directory contains output for finite cases to verify $D_3$ bound. For example, `$ sage finite.sage 1 100` will generate `cases_1_100.txt` that contains all Gram matrices of interest. In particular, from `cases_1_100.txt` one can observe that for the primes up to 100, $D_3 < \frac{3}{5}p+5$ for curves not defined over $\mathbb{F}_p$.
+
+#### B.6 `NE_values`
 Contains the script to estimate $N_E$, the smallest supersingular prime (greater than 3) such that for $p \geq N_E$ we get $D_1 = d$ by looking for a continuous sequence of 10 LLL-reduced Gram matrices.
 - One can run the script by navigating to this directory and then executing `$ sage NEvalue.sage <d>` where `<d>` is the absolute value of the CM discriminant of one of the 13 CM curves over $\mathbb{Q}$, namely $\{3,4,7,8,11,12,16,19,27,28,43,67,163\}$.
 - The `ref/` directory contains outputs for all 13 values of `d`. For example, `$ sage NEvalue.sage 27` will generate `NE_27.txt` that contains the $N_E$ value.
 
-#### B.6 `toy_Gross`
+#### B.7 `toy_Gross`
 Contains the script to numerically compute the Gram matrix of the minimal Gross lattice of all elliptic curves given $D_1$ values $\{3, 4, 7, 12, 15, 16, 20, 23, 27, 28, 35, 36, 39\}$ obtained from `toy_Ibukiyama/` and test if they belong to the isogeny graph of CSIDH for $p=419>37$.
 - One can run the script by navigating to this directory and then executing `$ sage csidh419gross.sage`.
 - The `ref/` directory contains the output `csidh419gross.txt` with all the Gram matrices. From this, one can observe that for the fixed prime $p=419$, if the curve lies over $\mathbb{F}_p$, then the Gram matrices are one of the four types.
 
-#### B.7 `toy_Ibukiyama`
+#### B.8 `toy_Ibukiyama`
 Contains the script that computes LLL-reduced Gram matrices of all elliptic curves belonging to the isogeny graph of CSIDH for $p=419$.
 - One can run the script by navigating to this directory and then executing `$ sage csidh419.sage`.
 - The `ref/` directory contains output `csidh419.txt` with all the maximal orders and Gram matrices. From this, one can observe the $D_1$ values for all curves over $\mathbb{F}_p$ and with endomorphism ring of type $O(q,r)$.
 
-#### B.8 `toy_Kaneko`
+#### B.9 `toy_Kaneko`
 Contains the script to numerically compute the Gram matrix of the minimal Gross lattice of all elliptic curves given $D_1\leq \left\lceil 4\sqrt{\frac{p}{3}}\right\rceil$ and test if they belong to the isogeny graph of CSIDH for $p=419>37$.
 - One can run the script by navigating to this directory and then executing `$ sage csidh419kaneko.sage`.
 - The `ref/` directory contains the output `csidh419kaneko.txt` with all the Gram matrices. From this, one can observe that for the fixed prime $p=419$, we get minimal Gross lattice for $D_1 \in \{3, 4, 7, 12, 15, 16, 20, 23, 27, 28, 35, 36, 39, 43, 47\}$ which matches with the $D_1$ values obtained from `toy_Ibukiyama/`, except for $43$ and $47$.
