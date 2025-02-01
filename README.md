@@ -1,4 +1,4 @@
-# Gross Lattices of Supersingular Elliptic Curves
+# Gross lattices of supersingular elliptic curves
 
 This repository contains the implementation of the algorithms and the results of the computations described in the paper.
 
