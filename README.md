@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the algorithms and the results of the computations described in the paper.
 
-**arXiv:** [arXiv:2503.03478v1](https://arxiv.org/abs/2503.03478)
+**arXiv:** [2503.03478v1](https://arxiv.org/abs/2503.03478)
 
 **Authors:** Chenfeng He, Gaurish Korpal, Ha Tran, and Christelle Vincent
 
