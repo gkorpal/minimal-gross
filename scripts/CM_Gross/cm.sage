@@ -9,7 +9,7 @@ current_dir = os.getcwd()
 parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir, os.pardir))
 sys.path.insert(0, parent_dir)
 
-from functions.fp.gross.symbolic import get_maximal_order
+from functions.fp.gross.symbolic import SymbolicGross
 from functions.fp.gross.type import get_matrix_type
 
 # CM data
