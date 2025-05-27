@@ -10,8 +10,10 @@ class IbukiyamaMaximalOrder:
         B, order_base, q, r, order_type = cls.maximal_order(jj, p)
         OT_base = cls.gross_lattice(B, order_base)
         G = cls.gram_matrix(OT_base)
-        U = G.LLL_gram()
-        Gred = U.transpose() * G * U
+        #U = G.LLL_gram()
+        #Gred = U.transpose() * G * U
+        Qform = TernaryQF([G[0,0], G[1,1], G[2,2], 2*G[1,2], 2*G[0,2], 2*G[0,1]])
+        Gred = (ZZ(1) / ZZ(2)) * Qform.reduced_form_eisenstein(matrix=False).matrix()
         Mred = cls.minimal_basis_matrix(Gred)
         return [order_type, (q, r), order_base, OT_base, Gred, Mred]
 
@@ -134,9 +136,9 @@ class IbukiyamaMaximalOrder:
     @classmethod
     def minimal_basis_matrix(cls, M):
         r"""
-        Obtaining Gram matrix of the minimal Gross lattice from LLL-reduced matrix.
+        Obtaining Gram matrix of the minimal Gross lattice from reduced matrix.
 
-        Rearrange LLL-reduced Gram matrix such that D1 <= D2 <= D3 and x,y>0 (flip angles accordingly).
+        Rearrange reduced Gram matrix such that D1 <= D2 <= D3 and x,y>0 (flip angles accordingly).
         """
         # Create a deep copy of the input matrix M
         Gred = deepcopy(M)

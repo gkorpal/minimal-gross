@@ -57,9 +57,13 @@ with open(os.path.join(current_dir, f"fam2mod3_{c}_{M}_{N}.txt"), "w") as file:
                     file.write(f"Maximal order with D1=20: {base}.\n")
                     
                     Gred = Matrix(ZZ, [[Integer(x) for x in row.strip('[]').split()] for row in str(m[idx][1]).split('\n')])
-                    file.write(f"LLL-reduced Gram matrix:\n{Gred}\n")
+                    #file.write(f"LLL-reduced Gram matrix:\n{Gred}\n")
 
-                    file.write(f"Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:\n{minimal_basis_matrix(Gred)}\n")
+                    Qform = TernaryQF([Gred[0,0], Gred[1,1], Gred[2,2], 2*Gred[1,2], 2*Gred[0,2], 2*Gred[0,1]])
+                    Ered = (ZZ(1) / ZZ(2)) * Qform.reduced_form_eisenstein(matrix=False).matrix()
+                    file.write(f"Reduced Gram matrix:\n{Ered}\n")
+                    
+                    file.write(f"Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:\n{minimal_basis_matrix(Ered)}\n")
                     
 
                     # maximal orders are Eichler orders

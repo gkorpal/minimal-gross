@@ -4,10 +4,10 @@ j-invariant 52 leads to Montgomery curve with label 0.
 **This is one of the 13 CM curves over Q. j = 12^3 with D1 = 4.**
 Maximal order: O(1) = [1, i, 1/2 + 1/2*k, 1/2*i - 1/2*j]
 Gross lattice: [2*i, k, i - j]
-LLL-reduced Gram matrix:
-[  4   0   2]
+Reduced Gram matrix:
+[  4   0  -2]
 [  0 419   0]
-[  2   0 420]
+[ -2   0 420]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [  4   0   2]
 [  0 419   0]
@@ -18,10 +18,10 @@ j-invariant 0 leads to Montgomery curves with labels 390 and 29.
 **This is one of the 13 CM curves over Q. j = 0 with D1 = 3 since p >= 5.**
 Maximal order: O(3,1) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 1/3*i - 1/3*k]
 Gross lattice: [1/3*i + 2/3*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[  3  -1   1]
-[ -1 559 279]
-[  1 279 559]
+Reduced Gram matrix:
+[   3   -1   -1]
+[  -1  559 -279]
+[  -1 -279  559]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [   3    1    1]
 [   1  559 -279]
@@ -32,7 +32,7 @@ j-invariant 396 leads to Montgomery curves with labels 124 and 295.
 **This is one of the 13 CM curves over Q. j = -15^3 with D1 = 7 since p >= 13.**
 Maximal order: O(251,121) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 121/251*i - 1/251*k]
 Gross lattice: [1/251*i + 56/251*k, j + k, 2*k]
-LLL-reduced Gram matrix:
+Reduced Gram matrix:
 [  7   2   1]
 [  2 240 120]
 [  1 120 479]
@@ -46,10 +46,10 @@ j-invariant 13 leads to Montgomery curves with labels 220 and 199.
 **This is one of the 13 CM curves over Q. j = -3*160^3 with D1 = 27 since p >= 167.**
 Maximal order: O(827,238) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 238/827*i - 1/827*k]
 Gross lattice: [1/827*i + 344/827*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 27  -5  11]
-[ -5  63  29]
-[ 11  29 439]
+Reduced Gram matrix:
+[ 27  -5 -11]
+[ -5  63 -29]
+[-11 -29 439]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 27   5  11]
 [  5  63 -29]
@@ -59,10 +59,10 @@ Type 4 matrix with parameters [5, 11].
 j-invariant 274 leads to Montgomery curves with labels 174 and 245.
 Maximal order: O(571,244) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 244/571*i - 1/571*k]
 Gross lattice: [1/571*i + 344/571*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 15   7   4]
-[  7 115 -54]
-[  4 -54 448]
+Reduced Gram matrix:
+[ 15  -7  -4]
+[ -7 115 -54]
+[ -4 -54 448]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 15   7   4]
 [  7 115 -54]
@@ -72,10 +72,10 @@ Type 4 matrix with parameters [7, 4].
 j-invariant 407 leads to Montgomery curves with labels 275 and 144.
 Maximal order: O(1427,495) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 495/1427*i - 1/1427*k]
 Gross lattice: [1/1427*i + 1796/1427*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 20  -8 -10]
-[ -8  87   4]
-[-10   4 424]
+Reduced Gram matrix:
+[ 20   8  10]
+[  8  87   4]
+[ 10   4 424]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   8  10]
 [  8  87   4]
@@ -85,10 +85,10 @@ Type 2 matrix with parameters [4, 5].
 j-invariant 354 leads to Montgomery curves with labels 344 and 75.
 Maximal order: O(787,95) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 95/787*i - 1/787*k]
 Gross lattice: [1/787*i + 1516/787*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 35   2  -1]
-[  2  48 -24]
-[ -1 -24 431]
+Reduced Gram matrix:
+[ 35   2   1]
+[  2  48  24]
+[  1  24 431]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 35   2   1]
 [  2  48  24]
@@ -99,7 +99,7 @@ j-invariant 98 leads to Montgomery curves with labels 368 and 51.
 **This is one of the 13 CM curves over Q. j = -960^3 with D1 <= 43 since p < 433.**
 Maximal order: O(43,21) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 21/43*i - 1/43*k]
 Gross lattice: [1/43*i + 2/43*k, j + k, 2*k]
-LLL-reduced Gram matrix:
+Reduced Gram matrix:
 [ 39  -1 -19]
 [ -1  43 -21]
 [-19 -21 439]
@@ -112,10 +112,10 @@ Type 4 matrix with parameters [1, 19].
 j-invariant 356 leads to Montgomery curves with labels 261 and 158.
 Maximal order: O(347,52) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 52/347*i - 1/347*k]
 Gross lattice: [1/347*i + 20/347*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 36  -4  18]
-[ -4  47  -2]
-[ 18  -2 428]
+Reduced Gram matrix:
+[ 36   4  18]
+[  4  47   2]
+[ 18   2 428]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 36   4  18]
 [  4  47   2]
@@ -125,10 +125,10 @@ Type 2 matrix with parameters [2, 9].
 j-invariant 106 leads to Montgomery curves with labels 40 and 379.
 Maximal order: O(379,115) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 115/379*i - 1/379*k]
 Gross lattice: [1/379*i + 524/379*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 35 -12   6]
-[-12  52 -26]
-[  6 -26 432]
+Reduced Gram matrix:
+[ 35  12   6]
+[ 12  52  26]
+[  6  26 432]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 35  12   6]
 [ 12  52  26]
@@ -138,10 +138,10 @@ Type 3 matrix with parameters [6].
 j-invariant 48 leads to Montgomery curves with labels 15 and 404.
 Maximal order: O(59,17) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 17/59*i - 1/59*k]
 Gross lattice: [1/59*i + 52/59*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 39 -14  -7]
-[-14  48  24]
-[ -7  24 431]
+Reduced Gram matrix:
+[ 39  14   7]
+[ 14  48  24]
+[  7  24 431]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 39  14   7]
 [ 14  48  24]
@@ -151,7 +151,7 @@ Type 3 matrix with parameters [7].
 j-invariant 180 leads to Montgomery curves with labels 410 and 9.
 Maximal order: O(139,50) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 50/139*i - 1/139*k]
 Gross lattice: [1/139*i + 164/139*k, j + k, 2*k]
-LLL-reduced Gram matrix:
+Reduced Gram matrix:
 [ 23  -7  -8]
 [ -7  75 -34]
 [ -8 -34 440]
@@ -164,10 +164,10 @@ Type 4 matrix with parameters [7, 8].
 j-invariant 184 leads to Montgomery curves with labels 228 and 191.
 Maximal order: O(131,57) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 57/131*i - 1/131*k]
 Gross lattice: [1/131*i + 108/131*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 15  -2   1]
-[ -2 112 -56]
-[  1 -56 447]
+Reduced Gram matrix:
+[ 15   2   1]
+[  2 112  56]
+[  1  56 447]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 15   2   1]
 [  2 112  56]
@@ -178,10 +178,10 @@ j-invariant 62 leads to Montgomery curves with labels 413 and 6.
 **This is one of the 13 CM curves over Q. j = 66^3 with D1 = 16 since p >= 67.**
 Maximal order: O(107,3) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 3/107*i - 1/107*k]
 Gross lattice: [1/107*i + 178/107*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 16  -6   8]
-[ -6 107  -3]
-[  8  -3 423]
+Reduced Gram matrix:
+[ 16   6   8]
+[  6 107   3]
+[  8   3 423]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 16   6   8]
 [  6 107   3]

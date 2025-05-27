@@ -58,8 +58,8 @@ with open(os.path.join(current_dir, f"NE_{d}.txt"), "w") as file:
         p = next_probable_prime(p+1) # p+1 is always even; avoiding Pari related indexing issue.
         n = p%d
         if n in a_values:
-            Gred = IbukiyamaMaximalOrder.get_matrix(jj, p)[-2]
-            if Gred[0, 0] == d:
+            Mred = IbukiyamaMaximalOrder.get_matrix(jj, p)[-1]
+            if Mred[0, 0] == d:
                 counter += 1
                 if counter == 1:
                     N = p
@@ -67,6 +67,6 @@ with open(os.path.join(current_dir, f"NE_{d}.txt"), "w") as file:
                     break
             else:
                 counter = 0
-    file.write(f"We find N_E = {N} by going through the list of supersingular primes and looking for a continuous sequence of 10 LLL-reduced Gram matrices with D1 = {d}.\n")
+    file.write(f"We get N_E = {N} by going through the list of supersingular primes and looking for a continuous sequence of 10 Eisenstein-reduced Gram matrices with D1 = {d}.\n")
 
 

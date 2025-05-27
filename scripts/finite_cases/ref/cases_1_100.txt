@@ -1,160 +1,538 @@
-The LLL-reduced Gram matrices of all maximal orders for p = lying between 1 and 100.
+The Eisenstein-reduced Gram matrices of all maximal orders for p lying between 1 and 100.
 
 p = 2.
 Quaternion Algebra: i^2 = -1 and j^2 = -1.
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/2*i - 1/2*j - 1/2*k, 1/2 + 1/2*i - 1/2*j - 1/2*k, -j].
+Reduced Gram matrix:
+[ 3 -1 -1]
+[-1  3 -1]
+[-1 -1  3]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 3  1  1]
+[ 1  3 -1]
+[ 1 -1  3]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 3.
 
 p = 3.
 Quaternion Algebra: i^2 = -1 and j^2 = -3.
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/2*j, i, 1/2*i + 1/2*k].
+Reduced Gram matrix:
+[ 3  0  0]
+[ 0  4 -2]
+[ 0 -2  4]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 3  0  0]
+[ 0  4 -2]
+[ 0 -2  4]
+The j-invariant belong to Fp since D3 >= 3. Moreover, D3 does not exceed 5.
 
 p = 5.
 Quaternion Algebra: i^2 = -2 and j^2 = -5.
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 1/4*i - 1/4*k, 1/2 - 3/4*i - 1/4*k, -1/4*i + 1/2*j - 1/4*k].
+Reduced Gram matrix:
+[ 3 -1 -1]
+[-1  7 -3]
+[-1 -3  7]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 3  1  1]
+[ 1  7 -3]
+[ 1 -3  7]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 7.
 
 p = 7.
 Quaternion Algebra: i^2 = -1 and j^2 = -7.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0  7  0]
+[-2  0  8]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[4 0 2]
+[0 7 0]
+[2 0 8]
+The j-invariant belong to Fp since D3 >= 7. Moreover, D3 does not exceed 9.
 
 p = 11.
 Quaternion Algebra: i^2 = -1 and j^2 = -11.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 11  0]
+[-2  0 12]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 11  0]
+[ 2  0 12]
+The j-invariant belong to Fp since D3 >= 11. Moreover, D3 does not exceed 14.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 1/4*i + 1/4*k, 1/2 - 7/4*i + 1/4*k, -3/4*i - 1/2*j + 1/4*k].
+Reduced Gram matrix:
+[ 3 -1 -1]
+[-1 15 -7]
+[-1 -7 15]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 3  1  1]
+[ 1 15 -7]
+[ 1 -7 15]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 15.
 
 p = 13.
 Quaternion Algebra: i^2 = -2 and j^2 = -13.
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/4*i + 1/4*k, -i, 1/2 - 1/2*i + 1/2*j].
+Reduced Gram matrix:
+[ 7  2  1]
+[ 2  8  4]
+[ 1  4 15]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 7  2  1]
+[ 2  8  4]
+[ 1  4 15]
+The j-invariant belong to Fp since D3 >= 13. Moreover, D3 does not exceed 16.
 
 p = 17.
 Quaternion Algebra: i^2 = -3 and j^2 = -17.
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/2*i, 1/2 - 1/6*i + 1/2*j - 1/6*k, -1/3*i + 1/2*j + 1/6*k].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  23 -11]
+[ -1 -11  23]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1  23 -11]
+[  1 -11  23]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 23.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 1/3*i - 1/6*k, i, 1/2*i + 1/2*j].
+Reduced Gram matrix:
+[ 7 -3 -2]
+[-3 11 -4]
+[-2 -4 20]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 7  3  2]
+[ 3 11 -4]
+[ 2 -4 20]
+The j-invariant belong to Fp since D3 >= 17. Moreover, D3 does not exceed 21.
 
 p = 19.
 Quaternion Algebra: i^2 = -1 and j^2 = -19.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 19  0]
+[-2  0 20]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 19  0]
+[ 2  0 20]
+The j-invariant belong to Fp since D3 >= 19. Moreover, D3 does not exceed 23.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 3/4*i - 1/4*k, 1/2 + 5/4*i - 1/4*k, 1/4*i + 1/2*j - 1/4*k].
+Reduced Gram matrix:
+[ 7 -1 -3]
+[-1 11 -5]
+[-3 -5 23]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 7  1  3]
+[ 1 11 -5]
+[ 3 -5 23]
+The j-invariant belong to Fp since D3 >= 19. Moreover, D3 does not exceed 23.
 
 p = 23.
 Quaternion Algebra: i^2 = -1 and j^2 = -23.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 23  0]
+[-2  0 24]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 23  0]
+[ 2  0 24]
+The j-invariant belong to Fp since D3 >= 23. Moreover, D3 does not exceed 28.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -3/4*i - 1/4*k, 5/4*i - 1/4*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 8 -2  0]
+[-2 12  0]
+[ 0  0 23]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 8  2  0]
+[ 2 12  0]
+[ 0  0 23]
+The j-invariant belong to Fp since D3 >= 23. Moreover, D3 does not exceed 28.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 1/3*i - 1/6*j, 1/2 - 7/6*i - 1/6*j - 1/2*k, -7/3*i - 1/3*j].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  31 -15]
+[ -1 -15  31]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1  31 -15]
+[  1 -15  31]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 31.
 
 p = 29.
 Quaternion Algebra: i^2 = -2 and j^2 = -29.
-Maximal order found, but over Fp.
+Maximal order: [1, -i, 1/2 - 1/4*i + 1/4*k, 1/2 - 1/2*i + 1/2*j].
+Reduced Gram matrix:
+[ 8  2  4]
+[ 2 15  1]
+[ 4  1 31]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 8  2  4]
+[ 2 15  1]
+[ 4  1 31]
+The j-invariant belong to Fp since D3 >= 29. Moreover, D3 does not exceed 34.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/8*i + 1/4*j - 1/8*k, -3/8*i + 1/4*j + 1/8*k, 13/8*i + 1/4*j + 1/8*k].
+Reduced Gram matrix:
+[11  4  2]
+[ 4 12  6]
+[ 2  6 32]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[11  4  2]
+[ 4 12  6]
+[ 2  6 32]
+The j-invariant belong to Fp since D3 >= 29. Moreover, D3 does not exceed 34.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 5/12*i + 1/12*k, 1/2 - 7/4*i - 1/4*k, -13/12*i + 1/2*j - 1/12*k].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  39 -19]
+[ -1 -19  39]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1  39 -19]
+[  1 -19  39]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 39.
 
 p = 31.
 Quaternion Algebra: i^2 = -1 and j^2 = -31.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 31  0]
+[-2  0 32]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 31  0]
+[ 2  0 32]
+The j-invariant belong to Fp since D3 >= 31. Moreover, D3 does not exceed 37.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/4*i + 1/4*k, 2*i, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 8 -2  0]
+[-2 16  0]
+[ 0  0 31]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 8  2  0]
+[ 2 16  0]
+[ 0  0 31]
+The j-invariant belong to Fp since D3 >= 31. Moreover, D3 does not exceed 37.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 1/6*i - 1/6*j + 1/6*k, 5/6*i - 1/3*j - 1/6*k, -13/6*i - 1/3*j - 1/6*k].
+Reduced Gram matrix:
+[ 7 -3 -2]
+[-3 19 -8]
+[-2 -8 36]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 7  3  2]
+[ 3 19 -8]
+[ 2 -8 36]
+The j-invariant belong to Fp since D3 >= 31. Moreover, D3 does not exceed 37.
 
 p = 37.
 Quaternion Algebra: i^2 = -2 and j^2 = -37.
-Maximal order found, but over Fp.
+Maximal order: [1, -i, 1/2 - 1/4*i + 1/4*k, 1/2 - 1/2*i + 1/2*j].
+Reduced Gram matrix:
+[ 8  2  4]
+[ 2 19  1]
+[ 4  1 39]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 8  2  4]
+[ 2 19  1]
+[ 4  1 39]
+The j-invariant belong to Fp since D3 >= 37. Moreover, D3 does not exceed 44.
 
-Maximal order: [1, 1/2 + 3/8*i - 1/4*j - 1/8*k, -7/8*i - 1/4*j + 1/8*k, 9/8*i - 1/4*j + 1/8*k].
-LLL-reduced Gram matrix:
-[15  2 -7]
-[ 2 20  4]
-[-7  4 23]
+Maximal order: [1, 1/2 - 3/8*i - 1/4*j + 1/8*k, 7/8*i - 1/4*j - 1/8*k, -9/8*i - 1/4*j - 1/8*k].
+Reduced Gram matrix:
+[15 -2 -7]
+[-2 20 -4]
+[-7 -4 23]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [15  2  7]
 [ 2 20 -4]
 [ 7 -4 23]
-The j-invariant does not belong to Fp since D3<37. Moreover, D3 is less than 27.
+The j-invariant does not belong to Fp since D3 < 37. Moreover, D3 does not exceed 27.
 
 p = 41.
 Quaternion Algebra: i^2 = -3 and j^2 = -41.
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/2*i, 1/2 - 1/6*i + 1/2*j - 1/6*k, -1/3*i + 1/2*j + 1/6*k].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  55 -27]
+[ -1 -27  55]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1  55 -27]
+[  1 -27  55]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 55.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -i, 1/2 - 1/3*i + 1/4*j - 1/12*k, -1/2*i - 1/4*j - 1/4*k].
+Reduced Gram matrix:
+[12  4  6]
+[ 4 15  2]
+[ 6  2 44]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[12  4  6]
+[ 4 15  2]
+[ 6  2 44]
+The j-invariant belong to Fp since D3 >= 41. Moreover, D3 does not exceed 48.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 5/18*i - 1/6*j + 1/18*k, 11/9*i - 1/6*j + 1/18*k, 1/2 + 11/18*i + 1/6*j + 5/18*k].
+Reduced Gram matrix:
+[ 7  2  1]
+[ 2 24 12]
+[ 1 12 47]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 7  2  1]
+[ 2 24 12]
+[ 1 12 47]
+The j-invariant belong to Fp since D3 >= 41. Moreover, D3 does not exceed 48.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 13/30*i - 1/5*j + 1/15*k, 1/2 - 31/30*i + 1/10*j - 1/30*k, -11/15*i - 3/10*j - 7/30*k].
+Reduced Gram matrix:
+[11 -1 -5]
+[-1 15 -7]
+[-5 -7 47]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[11  1  5]
+[ 1 15 -7]
+[ 5 -7 47]
+The j-invariant belong to Fp since D3 >= 41. Moreover, D3 does not exceed 48.
 
 p = 43.
 Quaternion Algebra: i^2 = -1 and j^2 = -43.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 43  0]
+[-2  0 44]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 43  0]
+[ 2  0 44]
+The j-invariant belong to Fp since D3 >= 43. Moreover, D3 does not exceed 50.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/4*i - 1/4*k, -2*i, 1/2 - i + 1/2*j].
+Reduced Gram matrix:
+[11  2  1]
+[ 2 16  8]
+[ 1  8 47]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[11  2  1]
+[ 2 16  8]
+[ 1  8 47]
+The j-invariant belong to Fp since D3 >= 43. Moreover, D3 does not exceed 50.
 
-Maximal order: [1, 1/2 - 7/6*i + 1/6*j - 1/6*k, 1/6*i + 1/3*j + 1/6*k, 1/2 + 11/6*i + 1/6*j - 1/6*k].
-LLL-reduced Gram matrix:
-[15  4  1]
-[ 4 24  6]
-[ 1  6 23]
+Maximal order: [1, 1/2 - 7/6*i - 1/6*j - 1/6*k, 1/6*i - 1/3*j + 1/6*k, 1/2 + 11/6*i - 1/6*j - 1/6*k].
+Reduced Gram matrix:
+[15  1  4]
+[ 1 23  6]
+[ 4  6 24]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [15  1  4]
 [ 1 23  6]
 [ 4  6 24]
-The j-invariant does not belong to Fp since D3<43. Moreover, D3 is less than 30.
+The j-invariant does not belong to Fp since D3 < 43. Moreover, D3 does not exceed 30.
 
 p = 47.
 Quaternion Algebra: i^2 = -1 and j^2 = -47.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 47  0]
+[-2  0 48]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 47  0]
+[ 2  0 48]
+The j-invariant belong to Fp since D3 >= 47. Moreover, D3 does not exceed 55.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/4*i + 1/4*k, 2*i, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[12 -2  0]
+[-2 16  0]
+[ 0  0 47]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[12  2  0]
+[ 2 16  0]
+[ 0  0 47]
+The j-invariant belong to Fp since D3 >= 47. Moreover, D3 does not exceed 55.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 2/3*i - 1/6*j, 1/2 + 7/3*i + 1/6*j, 3/2*i + 1/2*k].
+Reduced Gram matrix:
+[  7  -1  -3]
+[ -1  27 -13]
+[ -3 -13  55]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  7   1   3]
+[  1  27 -13]
+[  3 -13  55]
+The j-invariant belong to Fp since D3 >= 47. Moreover, D3 does not exceed 55.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -5/6*i - 1/6*k, -13/6*i + 1/6*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 8 -2  0]
+[-2 24  0]
+[ 0  0 47]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 8  2  0]
+[ 2 24  0]
+[ 0  0 47]
+The j-invariant belong to Fp since D3 >= 47. Moreover, D3 does not exceed 55.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 5/7*i + 1/14*j, 1/2 + 19/14*i - 3/14*j - 1/2*k, 19/7*i - 3/7*j].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  63 -31]
+[ -1 -31  63]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1  63 -31]
+[  1 -31  63]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 63.
 
 p = 53.
 Quaternion Algebra: i^2 = -2 and j^2 = -53.
-Maximal order found, but over Fp.
+Maximal order: [1, -i, 1/2 - 1/4*i + 1/4*k, 1/2 - 1/2*i + 1/2*j].
+Reduced Gram matrix:
+[ 8  2  4]
+[ 2 27  1]
+[ 4  1 55]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 8  2  4]
+[ 2 27  1]
+[ 4  1 55]
+The j-invariant belong to Fp since D3 >= 53. Moreover, D3 does not exceed 62.
 
 Maximal order: [1, -1/8*i - 1/4*j - 1/8*k, 1/2 + 5/8*i - 1/4*j + 1/8*k, 2*i].
-LLL-reduced Gram matrix:
-[20  6 -2]
-[ 6 23 10]
-[-2 10 32]
+Reduced Gram matrix:
+[ 20  -6  -2]
+[ -6  23 -10]
+[ -2 -10  32]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   2]
 [  6  23 -10]
 [  2 -10  32]
-The j-invariant does not belong to Fp since D3<53. Moreover, D3 is less than 36.
+The j-invariant does not belong to Fp since D3 < 53. Moreover, D3 does not exceed 36.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 1/12*i - 1/12*k, 1/2 + 3/2*i - 1/2*j, -17/12*i - 1/2*j - 1/12*k].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  71 -35]
+[ -1 -35  71]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1  71 -35]
+[  1 -35  71]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 71.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/6*i + 1/6*k, 1/2 - 17/12*i + 1/12*k, 1/12*i + 1/2*j + 1/12*k].
+Reduced Gram matrix:
+[12  4  6]
+[ 4 19  2]
+[ 6  2 56]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[12  4  6]
+[ 4 19  2]
+[ 6  2 56]
+The j-invariant belong to Fp since D3 >= 53. Moreover, D3 does not exceed 62.
 
 p = 59.
 Quaternion Algebra: i^2 = -1 and j^2 = -59.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 59  0]
+[-2  0 60]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 59  0]
+[ 2  0 60]
+The j-invariant belong to Fp since D3 >= 59. Moreover, D3 does not exceed 69.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/4*i - 1/4*k, -2*i, 1/2 - i + 1/2*j].
+Reduced Gram matrix:
+[15  2  1]
+[ 2 16  8]
+[ 1  8 63]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[15  2  1]
+[ 2 16  8]
+[ 1  8 63]
+The j-invariant belong to Fp since D3 >= 59. Moreover, D3 does not exceed 69.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 7/6*i + 1/6*k, 11/6*i - 1/6*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[12 -2  0]
+[-2 20  0]
+[ 0  0 59]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[12  2  0]
+[ 2 20  0]
+[ 0  0 59]
+The j-invariant belong to Fp since D3 >= 59. Moreover, D3 does not exceed 69.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 1/3*i - 1/6*j, 3*i, 3/2*i + 1/2*k].
+Reduced Gram matrix:
+[  7  -3  -2]
+[ -3  35 -16]
+[ -2 -16  68]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  7   3   2]
+[  3  35 -16]
+[  2 -16  68]
+The j-invariant belong to Fp since D3 >= 59. Moreover, D3 does not exceed 69.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 2/5*i - 1/10*j, 1/2 - 19/5*i - 3/10*j, -17/10*i - 1/5*j + 1/2*k].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  79 -39]
+[ -1 -39  79]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1  79 -39]
+[  1 -39  79]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 79.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 13/7*i + 1/14*j, -3/7*i + 2/7*j, -3/14*i + 1/7*j - 1/2*k].
+Reduced Gram matrix:
+[15 -7 -4]
+[-7 19 -6]
+[-4 -6 64]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[15  7  4]
+[ 7 19 -6]
+[ 4 -6 64]
+The j-invariant belong to Fp since D3 >= 59. Moreover, D3 does not exceed 69.
 
 p = 61.
 Quaternion Algebra: i^2 = -2 and j^2 = -61.
-Maximal order found, but over Fp.
+Maximal order: [1, -i, 1/2 - 1/4*i + 1/4*k, 1/2 - 1/2*i + 1/2*j].
+Reduced Gram matrix:
+[ 8  2  4]
+[ 2 31  1]
+[ 4  1 63]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 8  2  4]
+[ 2 31  1]
+[ 4  1 63]
+The j-invariant belong to Fp since D3 >= 61. Moreover, D3 does not exceed 71.
 
-Maximal order: [1, 1/2 - 1/8*i + 1/4*j - 1/8*k, -3/8*i + 1/4*j + 1/8*k, -2*i].
-LLL-reduced Gram matrix:
+Maximal order: [1, 1/2 - 1/8*i - 1/4*j - 1/8*k, -3/8*i - 1/4*j + 1/8*k, -2*i].
+Reduced Gram matrix:
 [23  8  2]
 [ 8 24  6]
 [ 2  6 32]
@@ -162,31 +540,67 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [23  8  2]
 [ 8 24  6]
 [ 2  6 32]
-The j-invariant does not belong to Fp since D3<61. Moreover, D3 is less than 41.
+The j-invariant does not belong to Fp since D3 < 61. Moreover, D3 does not exceed 41.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/6*i - 1/6*j, 1/2 - 3/4*i - 1/4*k, 25/12*i - 1/6*j - 1/4*k].
+Reduced Gram matrix:
+[  7  -1  -3]
+[ -1  35 -17]
+[ -3 -17  71]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  7   1   3]
+[  1  35 -17]
+[  3 -17  71]
+The j-invariant belong to Fp since D3 >= 61. Moreover, D3 does not exceed 71.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/20*i - 1/5*j + 1/20*k, 1/2 - 7/5*i - 1/10*j - 1/10*k, 17/20*i - 1/10*j - 7/20*k].
+Reduced Gram matrix:
+[ 11  -3  -4]
+[ -3  23 -10]
+[ -4 -10  68]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 11   3   4]
+[  3  23 -10]
+[  4 -10  68]
+The j-invariant belong to Fp since D3 >= 61. Moreover, D3 does not exceed 71.
 
 p = 67.
 Quaternion Algebra: i^2 = -1 and j^2 = -67.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 67  0]
+[-2  0 68]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 67  0]
+[ 2  0 68]
+The j-invariant belong to Fp since D3 >= 67. Moreover, D3 does not exceed 78.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -2*i, 1/2 - 3/4*i + 1/4*k, 1/2 - i - 1/2*j].
+Reduced Gram matrix:
+[16  6  8]
+[ 6 19  3]
+[ 8  3 71]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[16  6  8]
+[ 6 19  3]
+[ 8  3 71]
+The j-invariant belong to Fp since D3 >= 67. Moreover, D3 does not exceed 78.
 
-Maximal order: [1, 1/2 - 1/6*i - 1/6*j - 1/6*k, -3*i, -5/6*i - 1/3*j + 1/6*k].
-LLL-reduced Gram matrix:
-[15  2 -7]
-[ 2 36  8]
-[-7  8 39]
+Maximal order: [1, 1/2 - 1/6*i - 1/6*j + 1/6*k, -3*i, -5/6*i - 1/3*j - 1/6*k].
+Reduced Gram matrix:
+[15 -2 -7]
+[-2 36 -8]
+[-7 -8 39]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [15  2  7]
 [ 2 36 -8]
 [ 7 -8 39]
-The j-invariant does not belong to Fp since D3<67. Moreover, D3 is less than 45.
+The j-invariant does not belong to Fp since D3 < 67. Moreover, D3 does not exceed 45.
 
 Maximal order: [1, 1/2 - 21/10*i - 1/10*j - 1/10*k, 4/5*i - 1/5*j - 1/5*k, 1/2 + 1/5*i - 3/10*j + 1/5*k].
-LLL-reduced Gram matrix:
+Reduced Gram matrix:
 [23  4  1]
 [ 4 24  6]
 [ 1  6 35]
@@ -194,60 +608,159 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [23  4  1]
 [ 4 24  6]
 [ 1  6 35]
-The j-invariant does not belong to Fp since D3<67. Moreover, D3 is less than 45.
+The j-invariant does not belong to Fp since D3 < 67. Moreover, D3 does not exceed 45.
 
 p = 71.
 Quaternion Algebra: i^2 = -1 and j^2 = -71.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 71  0]
+[-2  0 72]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 71  0]
+[ 2  0 72]
+The j-invariant belong to Fp since D3 >= 71. Moreover, D3 does not exceed 82.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -2*i, -3/4*i + 1/4*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[16 -6  0]
+[-6 20  0]
+[ 0  0 71]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[16  6  0]
+[ 6 20  0]
+[ 0  0 71]
+The j-invariant belong to Fp since D3 >= 71. Moreover, D3 does not exceed 82.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 4/3*i - 1/6*j, 1/2 - 5/3*i + 1/6*j, -3/2*i + 1/2*k].
+Reduced Gram matrix:
+[15 -1 -7]
+[-1 19 -9]
+[-7 -9 79]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[15  1  7]
+[ 1 19 -9]
+[ 7 -9 79]
+The j-invariant belong to Fp since D3 >= 71. Moreover, D3 does not exceed 82.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/6*i + 1/6*k, 3*i, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 8 -2  0]
+[-2 36  0]
+[ 0  0 71]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 8  2  0]
+[ 2 36  0]
+[ 0  0 71]
+The j-invariant belong to Fp since D3 >= 71. Moreover, D3 does not exceed 82.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -2/5*i - 1/5*k, 23/10*i - 1/10*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[12 -2  0]
+[-2 24  0]
+[ 0  0 71]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[12  2  0]
+[ 2 24  0]
+[ 0  0 71]
+The j-invariant belong to Fp since D3 >= 71. Moreover, D3 does not exceed 82.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 1/5*i - 1/10*j, 1/2 - 23/10*i - 1/10*j - 1/2*k, -23/5*i - 1/5*j].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  95 -47]
+[ -1 -47  95]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1  95 -47]
+[  1 -47  95]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 95.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 5/14*i - 1/14*j - 3/14*k, -25/14*i + 1/7*j - 1/14*k, -24/7*i - 2/7*j + 1/7*k].
+Reduced Gram matrix:
+[15  4  2]
+[ 4 20 10]
+[ 2 10 76]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[15  4  2]
+[ 4 20 10]
+[ 2 10 76]
+The j-invariant belong to Fp since D3 >= 71. Moreover, D3 does not exceed 82.
 
 p = 73.
 Quaternion Algebra: i^2 = -7 and j^2 = -73.
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/2*i, -2/7*i - 1/7*k, -1/7*i + 1/2*j - 1/14*k].
+Reduced Gram matrix:
+[  7  -3  -2]
+[ -3  43 -20]
+[ -2 -20  84]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  7   3   2]
+[  3  43 -20]
+[  2 -20  84]
+The j-invariant belong to Fp since D3 >= 73. Moreover, D3 does not exceed 85.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/7*i - 1/14*k, -i, -1/2*i - 1/2*j].
+Reduced Gram matrix:
+[11  4  2]
+[ 4 28 14]
+[ 2 14 80]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[11  4  2]
+[ 4 28 14]
+[ 2 14 80]
+The j-invariant belong to Fp since D3 >= 73. Moreover, D3 does not exceed 85.
 
-Maximal order: [1, 1/2 + 19/42*i + 1/6*j - 1/42*k, 22/21*i - 1/6*j + 1/42*k, 1/2 + 11/42*i - 1/6*j - 5/42*k].
-LLL-reduced Gram matrix:
-[15  4  1]
-[ 4 40 10]
-[ 1 10 39]
+Maximal order: [1, 1/2 + 19/42*i - 1/6*j - 1/42*k, 22/21*i + 1/6*j + 1/42*k, 1/2 + 11/42*i + 1/6*j - 5/42*k].
+Reduced Gram matrix:
+[15  1  4]
+[ 1 39 10]
+[ 4 10 40]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [15  1  4]
 [ 1 39 10]
 [ 4 10 40]
-The j-invariant does not belong to Fp since D3<73. Moreover, D3 is less than 48.
+The j-invariant does not belong to Fp since D3 < 73. Moreover, D3 does not exceed 48.
 
-Maximal order: [1, 13/21*i - 1/6*j - 1/42*k, 1/2 + 37/42*i + 1/6*j + 1/42*k, 2/7*i + 1/7*k].
-LLL-reduced Gram matrix:
-[20  6 -2]
-[ 6 31 14]
-[-2 14 44]
+Maximal order: [1, -13/21*i - 1/6*j + 1/42*k, 1/2 - 37/42*i + 1/6*j - 1/42*k, -2/7*i - 1/7*k].
+Reduced Gram matrix:
+[ 20  -6  -2]
+[ -6  31 -14]
+[ -2 -14  44]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   2]
 [  6  31 -14]
 [  2 -14  44]
-The j-invariant does not belong to Fp since D3<73. Moreover, D3 is less than 48.
+The j-invariant does not belong to Fp since D3 < 73. Moreover, D3 does not exceed 48.
 
 p = 79.
 Quaternion Algebra: i^2 = -1 and j^2 = -79.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 79  0]
+[-2  0 80]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 79  0]
+[ 2  0 80]
+The j-invariant belong to Fp since D3 >= 79. Moreover, D3 does not exceed 92.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -2*i, -1/4*i - 1/4*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[16 -2  0]
+[-2 20  0]
+[ 0  0 79]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[16  2  0]
+[ 2 20  0]
+[ 0  0 79]
+The j-invariant belong to Fp since D3 >= 79. Moreover, D3 does not exceed 92.
 
-Maximal order: [1, 1/2 - 7/6*i - 1/6*j + 1/6*k, 1/2 + 11/6*i - 1/6*j + 1/6*k, 1/6*i - 1/3*j - 1/6*k].
-LLL-reduced Gram matrix:
+Maximal order: [1, 1/2 - 7/6*i + 1/6*j + 1/6*k, 1/2 + 11/6*i + 1/6*j + 1/6*k, 1/6*i + 1/3*j - 1/6*k].
+Reduced Gram matrix:
 [23  9  8]
 [ 9 31 10]
 [ 8 10 44]
@@ -255,55 +768,190 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [23  9  8]
 [ 9 31 10]
 [ 8 10 44]
-The j-invariant does not belong to Fp since D3<79. Moreover, D3 is less than 52.
+The j-invariant does not belong to Fp since D3 < 79. Moreover, D3 does not exceed 52.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 7/5*i + 1/10*j, 11/5*i - 1/5*j, 1/2 + 11/10*i - 1/10*j + 1/2*k].
+Reduced Gram matrix:
+[ 11  -5  -3]
+[ -5  31 -13]
+[ -3 -13  87]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 11   5   3]
+[  5  31 -13]
+[  3 -13  87]
+The j-invariant belong to Fp since D3 >= 79. Moreover, D3 does not exceed 92.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 11/10*i + 1/10*k, -17/10*i + 3/10*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 8 -2  0]
+[-2 40  0]
+[ 0  0 79]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 8  2  0]
+[ 2 40  0]
+[ 0  0 79]
+The j-invariant belong to Fp since D3 >= 79. Moreover, D3 does not exceed 92.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 9/11*i - 5/22*j, 17/11*i - 2/11*j, 17/22*i - 1/11*j - 1/2*k].
+Reduced Gram matrix:
+[19  8  4]
+[ 8 20 10]
+[ 4 10 84]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[19  8  4]
+[ 8 20 10]
+[ 4 10 84]
+The j-invariant belong to Fp since D3 >= 79. Moreover, D3 does not exceed 92.
 
 p = 83.
 Quaternion Algebra: i^2 = -1 and j^2 = -83.
-Maximal order found, but over Fp.
+Maximal order: [1, i, 1/2*i + 1/2*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 4  0 -2]
+[ 0 83  0]
+[-2  0 84]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 4  0  2]
+[ 0 83  0]
+[ 2  0 84]
+The j-invariant belong to Fp since D3 >= 83. Moreover, D3 does not exceed 96.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -2*i, 1/2 - 3/4*i + 1/4*k, 1/2 - i - 1/2*j].
+Reduced Gram matrix:
+[16  6  8]
+[ 6 23  3]
+[ 8  3 87]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[16  6  8]
+[ 6 23  3]
+[ 8  3 87]
+The j-invariant belong to Fp since D3 >= 83. Moreover, D3 does not exceed 96.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 2/3*i - 1/6*j, 1/2 + 7/3*i - 1/6*j, 3/2*i + 1/2*k].
+Reduced Gram matrix:
+[ 11  -3  -4]
+[ -3  31 -14]
+[ -4 -14  92]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 11   3   4]
+[  3  31 -14]
+[  4 -14  92]
+The j-invariant belong to Fp since D3 >= 83. Moreover, D3 does not exceed 96.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -5/6*i - 1/6*k, 13/6*i - 1/6*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[12 -2  0]
+[-2 28  0]
+[ 0  0 83]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[12  2  0]
+[ 2 28  0]
+[ 0  0 83]
+The j-invariant belong to Fp since D3 >= 83. Moreover, D3 does not exceed 96.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 3/10*i - 1/10*j - 1/10*k, 11/10*i + 1/5*j - 3/10*k, 1/2 + 47/10*i - 1/10*j - 1/10*k].
+Reduced Gram matrix:
+[ 7  2  1]
+[ 2 48 24]
+[ 1 24 95]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 7  2  1]
+[ 2 48 24]
+[ 1 24 95]
+The j-invariant belong to Fp since D3 >= 83. Moreover, D3 does not exceed 96.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 4/7*i - 1/14*j, 1/2 - 29/7*i + 5/14*j, -33/14*i + 1/7*j + 1/2*k].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1 111 -55]
+[ -1 -55 111]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1 111 -55]
+[  1 -55 111]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 111.
 
-Maximal order: [1, 1/2 - 31/14*i - 1/14*j + 1/14*k, 1/2 + 5/14*i - 3/14*j + 3/14*k, 9/14*i - 2/7*j - 3/14*k].
-LLL-reduced Gram matrix:
-[23  7 -4]
-[ 7 31  6]
-[-4  6 44]
+Maximal order: [1, 1/2 + 31/14*i - 1/14*j - 1/14*k, 1/2 - 5/14*i - 3/14*j - 3/14*k, -9/14*i - 2/7*j + 3/14*k].
+Reduced Gram matrix:
+[23 -7 -4]
+[-7 31 -6]
+[-4 -6 44]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [23  7  4]
 [ 7 31 -6]
 [ 4 -6 44]
-The j-invariant does not belong to Fp since D3<83. Moreover, D3 is less than 54.
+The j-invariant does not belong to Fp since D3 < 83. Moreover, D3 does not exceed 54.
 
 p = 89.
 Quaternion Algebra: i^2 = -3 and j^2 = -89.
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 - 1/2*i, 1/2 - 1/6*i + 1/2*j - 1/6*k, -1/3*i + 1/2*j + 1/6*k].
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1 119 -59]
+[ -1 -59 119]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  3   1   1]
+[  1 119 -59]
+[  1 -59 119]
+The j-invariant is 0 since D1  = 3 and D2 = D3 = 119.
 
-Maximal order found, but over Fp.
+Maximal order: [1, -i, 1/2 - 1/3*i + 1/4*j - 1/12*k, -1/2*i - 1/4*j - 1/4*k].
+Reduced Gram matrix:
+[12  4  6]
+[ 4 31  2]
+[ 6  2 92]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[12  4  6]
+[ 4 31  2]
+[ 6  2 92]
+The j-invariant belong to Fp since D3 >= 89. Moreover, D3 does not exceed 103.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 7/18*i + 1/6*j + 1/18*k, -10/9*i + 1/6*j + 1/18*k, -5/9*i - 1/6*j + 5/18*k].
+Reduced Gram matrix:
+[ 15  -7  -4]
+[ -7  27 -10]
+[ -4 -10  96]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 15   7   4]
+[  7  27 -10]
+[  4 -10  96]
+The j-invariant belong to Fp since D3 >= 89. Moreover, D3 does not exceed 103.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 1/30*i + 1/5*j - 1/15*k, 19/15*i + 1/10*j - 1/30*k, 1/2 + 19/30*i - 1/5*j - 4/15*k].
+Reduced Gram matrix:
+[19 -9 -5]
+[-9 23 -7]
+[-5 -7 95]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[19  9  5]
+[ 9 23 -7]
+[ 5 -7 95]
+The j-invariant belong to Fp since D3 >= 89. Moreover, D3 does not exceed 103.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 13/30*i - 1/10*j + 1/30*k, 1/2 - 49/30*i - 1/5*j + 1/15*k, -3/5*i - 2/5*j - 1/5*k].
+Reduced Gram matrix:
+[  7  -1  -3]
+[ -1  51 -25]
+[ -3 -25 103]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[  7   1   3]
+[  1  51 -25]
+[  3 -25 103]
+The j-invariant belong to Fp since D3 >= 89. Moreover, D3 does not exceed 103.
 
-Maximal order found, but over Fp.
+Maximal order: [1, 1/2 + 43/42*i - 1/21*k, -3/7*i - 1/7*k, 1/2 - 3/14*i - 1/2*j - 1/14*k].
+Reduced Gram matrix:
+[15  2  1]
+[ 2 24 12]
+[ 1 12 95]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[15  2  1]
+[ 2 24 12]
+[ 1 12 95]
+The j-invariant belong to Fp since D3 >= 89. Moreover, D3 does not exceed 103.
 
-Maximal order: [1, 1/2 - 61/66*i - 2/11*j + 1/33*k, 1/2 + 67/66*i - 3/22*j + 7/66*k, 23/33*i - 3/11*j - 4/33*k].
-LLL-reduced Gram matrix:
+Maximal order: [1, 1/2 + 61/66*i - 1/22*j + 7/66*k, 1/2 - 67/66*i + 1/11*j + 4/33*k, -23/33*i - 7/22*j + 5/66*k].
+Reduced Gram matrix:
 [23  1  6]
 [ 1 31  8]
 [ 6  8 48]
@@ -311,44 +959,62 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [23  1  6]
 [ 1 31  8]
 [ 6  8 48]
-The j-invariant does not belong to Fp since D3<89. Moreover, D3 is less than 58.
+The j-invariant does not belong to Fp since D3 < 89. Moreover, D3 does not exceed 58.
 
 p = 97.
 Quaternion Algebra: i^2 = -7 and j^2 = -97.
-Maximal order found, but over Fp.
-
-Maximal order found, but over Fp.
-
-Maximal order: [1, 11/21*i - 1/6*j + 1/42*k, 1/2 + 41/42*i + 1/6*j - 1/42*k, 13/21*i + 1/6*j + 5/42*k].
-LLL-reduced Gram matrix:
-[20  2  6]
-[ 2 39 20]
-[ 6 20 60]
+Maximal order: [1, 1/2 - 1/2*i, -1/7*i - 1/7*k, 1/2 - 1/14*i - 1/2*j - 1/14*k].
+Reduced Gram matrix:
+[  7   2   1]
+[  2  56  28]
+[  1  28 111]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
-[20  2  6]
-[ 2 39 20]
-[ 6 20 60]
-The j-invariant does not belong to Fp since D3<97. Moreover, D3 is less than 63.
+[  7   2   1]
+[  2  56  28]
+[  1  28 111]
+The j-invariant belong to Fp since D3 >= 97. Moreover, D3 does not exceed 112.
 
-Maximal order: [1, 1/2 - 13/42*i - 1/6*j + 1/42*k, 25/21*i - 1/6*j + 1/42*k, 1/7*i + 1/7*k].
-LLL-reduced Gram matrix:
-[15  2 -7]
-[ 2 52 12]
-[-7 12 55]
+Maximal order: [1, 1/2 - 3/7*i + 1/14*k, 1/2 + 4/7*i + 1/14*k, 1/2*i + 1/2*j].
+Reduced Gram matrix:
+[ 19  -7  -6]
+[ -7  23  -8]
+[ -6  -8 104]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 19   7   6]
+[  7  23  -8]
+[  6  -8 104]
+The j-invariant belong to Fp since D3 >= 97. Moreover, D3 does not exceed 112.
+
+Maximal order: [1, 1/2 + 13/42*i - 1/6*j - 1/42*k, -25/21*i - 1/6*j - 1/42*k, -1/7*i - 1/7*k].
+Reduced Gram matrix:
+[ 15  -2  -7]
+[ -2  52 -12]
+[ -7 -12  55]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 15   2   7]
 [  2  52 -12]
 [  7 -12  55]
-The j-invariant does not belong to Fp since D3<97. Moreover, D3 is less than 63.
+The j-invariant does not belong to Fp since D3 < 97. Moreover, D3 does not exceed 63.
+
+Maximal order: [1, 11/21*i - 1/6*j + 1/42*k, 1/2 + 41/42*i + 1/6*j - 1/42*k, 13/21*i + 1/6*j + 5/42*k].
+Reduced Gram matrix:
+[ 20  -2  -4]
+[ -2  39 -19]
+[ -4 -19  59]
+Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
+[ 20   2   4]
+[  2  39 -19]
+[  4 -19  59]
+The j-invariant does not belong to Fp since D3 < 97. Moreover, D3 does not exceed 63.
 
 Maximal order: [1, 1/2 + 57/70*i + 1/10*j + 1/70*k, -2/35*i + 3/10*j + 3/70*k, 1/2 - 1/70*i + 1/5*j - 4/35*k].
-LLL-reduced Gram matrix:
-[ 23 -11   3]
-[-11  39   7]
-[  3   7  51]
+Reduced Gram matrix:
+[ 23 -11  -3]
+[-11  39  -7]
+[ -3  -7  51]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [23 11  3]
 [11 39 -7]
 [ 3 -7 51]
-The j-invariant does not belong to Fp since D3<97. Moreover, D3 is less than 63.
+The j-invariant does not belong to Fp since D3 < 97. Moreover, D3 does not exceed 63.
 

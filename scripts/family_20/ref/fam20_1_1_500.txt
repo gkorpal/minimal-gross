@@ -1,4 +1,4 @@
-The LLL-reduced Gram matrices of all maximal orders with the first successive minima equal to 20 and lying in Bp for p = 1 (mod 20) lying between 1 and 500.
+The Eisenstein-reduced Gram matrices of all maximal orders with the first successive minima equal to 20 and lying in Bp for p = 1 (mod 20) lying between 1 and 500.
 
 p = 41.
 Quaternion Algebra: i^2 = -3 and j^2 = -41.

@@ -11,7 +11,6 @@ sys.path.insert(0, parent_dir)
 
 from functions.fp2.eichler.maximal import get_maximal_order
 from functions.fp2.eichler.bounds import d3_bound, minimal_basis_matrix
-from functions.fp2.deuring.correspondence import constructive_deuring
 from functions.fp.gross.type import get_matrix_type
 
 
@@ -25,7 +24,7 @@ M = abs(Integer(sys.argv[2])) # p >= M
 N = abs(Integer(sys.argv[3])) # p <= N
 
 with open(os.path.join(current_dir, f"fam20_{c}_{M}_{N}.txt"), "w") as file:
-    file.write(f"The LLL-reduced Gram matrices of all maximal orders with the first successive minima equal to 20 and lying in Bp for p = {c} (mod 20) lying between {M} and {N}.\n\n")
+    file.write(f"The Eisenstein-reduced Gram matrices of all maximal orders with the first successive minima equal to 20 and lying in Bp for p = {c} (mod 20) lying between {M} and {N}.\n\n")
     # loop over the primes c mod 20 and between [M,N]
     counter = 0
     for p in prime_range(M, N+1):
@@ -54,9 +53,13 @@ with open(os.path.join(current_dir, f"fam20_{c}_{M}_{N}.txt"), "w") as file:
                     file.write(f"Maximal order with D1=20: {base}.\n")
                     
                     Gred = Matrix(ZZ, [[Integer(x) for x in row.strip('[]').split()] for row in str(m[idx][1]).split('\n')])
-                    file.write(f"LLL-reduced Gram matrix:\n{Gred}\n")
+                    #file.write(f"LLL-reduced Gram matrix:\n{Gred}\n")
+                    
+                    Qform = TernaryQF([Gred[0,0], Gred[1,1], Gred[2,2], 2*Gred[1,2], 2*Gred[0,2], 2*Gred[0,1]])
+                    Ered = (ZZ(1) / ZZ(2)) * Qform.reduced_form_eisenstein(matrix=False).matrix()
+                    file.write(f"Reduced Gram matrix:\n{Ered}\n")
 
-                    Mred = minimal_basis_matrix(Gred)
+                    Mred = minimal_basis_matrix(Ered)
                     file.write(f"Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:\n{Mred}\n")
                     # test if in Fp
                     bound = d3_bound(Mred,p)

@@ -2,4 +2,4 @@ j(E) = 1728 = 12^3
 
 N_E is the smallest supersingular prime (greater than 3) such that for p >= N_E we get D1 = 4.
 
-We find N_E = 7 by going through the list of supersingular primes and looking for a continuous sequence of 10 LLL-reduced Gram matrices with D1 = 4.
+We get N_E = 7 by going through the list of supersingular primes and looking for a continuous sequence of 10 Eisenstein-reduced Gram matrices with D1 = 4.

@@ -1,14 +1,14 @@
 j(E) = 0
 
-Obtaining Gram matrix of the minimal Gross lattice using LLL-reduction.
+Obtaining Gram matrix of the minimal Gross lattice using Eisenstein-reduction.
 
 p = 5 is 2 mod 3.
 Maximal order: O(3,1) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 1/3*i - 1/3*k]
 Gross lattice: [1/3*i + 2/3*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 3 -1  1]
-[-1  7  3]
-[ 1  3  7]
+Reduced Gram matrix:
+[ 3 -1 -1]
+[-1  7 -3]
+[-1 -3  7]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 3  1  1]
 [ 1  7 -3]
@@ -18,10 +18,10 @@ Type 4 matrix with parameters [1, 1].
 p = 11 is 2 mod 3.
 Maximal order: O(3,1) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 1/3*i - 1/3*k]
 Gross lattice: [1/3*i + 2/3*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 3 -1  1]
-[-1 15  7]
-[ 1  7 15]
+Reduced Gram matrix:
+[ 3 -1 -1]
+[-1 15 -7]
+[-1 -7 15]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 3  1  1]
 [ 1 15 -7]
@@ -31,10 +31,10 @@ Type 4 matrix with parameters [1, 1].
 p = 17 is 2 mod 3.
 Maximal order: O(3,1) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 1/3*i - 1/3*k]
 Gross lattice: [1/3*i + 2/3*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 3 -1  1]
-[-1 23 11]
-[ 1 11 23]
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  23 -11]
+[ -1 -11  23]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [  3   1   1]
 [  1  23 -11]
@@ -44,10 +44,10 @@ Type 4 matrix with parameters [1, 1].
 p = 23 is 2 mod 3.
 Maximal order: O(3,1) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 1/3*i - 1/3*k]
 Gross lattice: [1/3*i + 2/3*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 3 -1  1]
-[-1 31 15]
-[ 1 15 31]
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  31 -15]
+[ -1 -15  31]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [  3   1   1]
 [  1  31 -15]
@@ -57,10 +57,10 @@ Type 4 matrix with parameters [1, 1].
 p = 29 is 2 mod 3.
 Maximal order: O(3,1) = [1, 1/2 + 1/2*i, 1/2*j + 1/2*k, 1/3*i - 1/3*k]
 Gross lattice: [1/3*i + 2/3*k, j + k, 2*k]
-LLL-reduced Gram matrix:
-[ 3 -1  1]
-[-1 39 19]
-[ 1 19 39]
+Reduced Gram matrix:
+[  3  -1  -1]
+[ -1  39 -19]
+[ -1 -19  39]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [  3   1   1]
 [  1  39 -19]

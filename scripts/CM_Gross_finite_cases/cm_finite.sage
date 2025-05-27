@@ -45,7 +45,7 @@ jj = param[2]
 
 with open(os.path.join(current_dir, f"cases_{d}.txt"), "w") as file:
     file.write(f"{param[3]}\n\n")
-    file.write(f"Obtaining Gram matrix of the minimal Gross lattice using LLL-reduction.\n\n")
+    file.write(f"Obtaining Gram matrix of the minimal Gross lattice using Eisenstein-reduction.\n\n")
     for p in primes(N,37):
         n = p%d
         if n in a_values:
@@ -58,7 +58,7 @@ with open(os.path.join(current_dir, f"cases_{d}.txt"), "w") as file:
                 file.write(f"Maximal order is O'({q},{r}) = {order_base}\n")
             
             file.write(f"Gross lattice: {OT_base}\n")
-            file.write(f"LLL-reduced Gram matrix:\n{Gred}\n")
+            file.write(f"Reduced Gram matrix:\n{Gred}\n")
             file.write(f"Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:\n{Mred}\n")
             matrix_type, parameters = get_matrix_type(Mred, p)
             file.write(f"Type {matrix_type} matrix with parameters {parameters}.\n\n")

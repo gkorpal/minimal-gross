@@ -58,9 +58,9 @@ with open(os.path.join(current_dir, f"csidh419.txt"), "w") as file:
     file.write(f"Gross lattice: {OT_base}\n")
     
     G = IbukiyamaMaximalOrder.gram_matrix(OT_base)
-    U = G.LLL_gram()
-    Gred = U.transpose() * G * U
-    file.write(f"LLL-reduced Gram matrix:\n{Gred}\n")
+    Qform = TernaryQF([G[0,0], G[1,1], G[2,2], 2*G[1,2], 2*G[0,2], 2*G[0,1]])
+    Gred = (ZZ(1) / ZZ(2)) * Qform.reduced_form_eisenstein(matrix=False).matrix()
+    file.write(f"Reduced Gram matrix:\n{Gred}\n")
     
     Mred = IbukiyamaMaximalOrder.minimal_basis_matrix(Gred)
     file.write(f"Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:\n{Mred}\n")
@@ -93,7 +93,7 @@ with open(os.path.join(current_dir, f"csidh419.txt"), "w") as file:
             
             file.write(f"Gross lattice: {OT_base}\n")
             
-            file.write(f"LLL-reduced Gram matrix:\n{Gred}\n")
+            file.write(f"Reduced Gram matrix:\n{Gred}\n")
             
             file.write(f"Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:\n{Mred}\n")
             D1_values.append(Mred[0, 0])

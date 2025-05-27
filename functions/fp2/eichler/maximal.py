@@ -9,7 +9,7 @@ def get_maximal_order(a, b, d):
     the maximal order that contains a Gross lattice with the first successive 
     minima, D1, equal to d.
 
-    If d = 0 then this function outputs matrices for all orders.
+    If d = 0 then this function outputs matrixes for all orders.
     """
     results = []
     m = magma
@@ -29,7 +29,7 @@ def get_maximal_order(a, b, d):
             # Gram matrix
             G = m.Matrix([[m.RationalField()((OTbasis[i] * OTbasis[j].Conjugate()).Trace()) for j in range(n)] for i in range(n)])
             G = 1/2 * G 
-            Gred = G.LLLGram(Delta=0.99, Eta=0.51)
+            Gred = G.LLLGram(Delta=0.999999999999999, Eta=0.5000000000000001, DeepInsertions=True)
             Gred = m.Matrix([[m.Integers()(Gred[i][j]) for j in range(1, n+1)] for i in range(1, n+1)])  # Convert entries to Magma integers
             if Gred[1][1] == d:
                 results.append((basis, Gred)) # the maximal order and Gram matrix of Gross lattice.

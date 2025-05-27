@@ -21,19 +21,22 @@ def d3_bound(*args):
         raise ValueError("Invalid number of arguments. Use d3_bound(M) or d3_bound(M, p).")
     
     fpbound = 8*p/7 + 7/4
+    fpbound0 = (4*p+1)/3
     fp2bound = 3*p/5 + 5
-    if p <= D3 <= fpbound:
+    if D3 < p and 0 <= D3 <= fp2bound:
+        return [False, floor(fp2bound)] 
+    elif D3 >= p and D1 == 3 and D2 == D3 == fpbound0:
+        return [True, floor(fpbound0)]
+    elif p <= D3 <= fpbound:
         return [True, floor(fpbound)]
-    elif 0 <= D3 <= fp2bound:
-        return [False, floor(fp2bound)]
     else:
         return [False, False]
 
 def minimal_basis_matrix(M):
     r"""
-    Obtaining Gram matrix of the minimal Gross lattice from LLL-reduced matrix.
+    Obtaining Gram matrix of the minimal Gross lattice from reduced matrix.
 
-    Rearrange LLL-reduced Gram matrix such that D1 <= D2 <= D3 and x,y>0 (flip angles accordingly).
+    Rearrange reduced Gram matrix such that D1 <= D2 <= D3 and x,y>0 (flip angles accordingly).
     """
     # Create a deep copy of the input matrix M
     Gred = deepcopy(M)

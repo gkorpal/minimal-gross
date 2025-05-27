@@ -1,4 +1,4 @@
-The LLL-reduced Gram matrices of all maximal orders with the first successive minima equal to 20 and lying in Bp for p = 11 (mod 20) lying between 1 and 500.
+The Eisenstein-reduced Gram matrices of all maximal orders with the first successive minima equal to 20 and lying in Bp for p = 11 (mod 20) lying between 1 and 500.
 
 p = 11.
 Quaternion Algebra: i^2 = -1 and j^2 = -11.
@@ -15,9 +15,9 @@ No maximal order with D1=20 found.
 p = 131.
 Quaternion Algebra: i^2 = -1 and j^2 = -131.
 Maximal order with D1=20: [1, -7/6*i + 1/6*k, 11/6*i + 1/6*k, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6  28   0]
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6  28   0]
 [  0   0 131]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -26,8 +26,8 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 The j-invariant belongs to Fp, since D3 is between 131 and 151.
 Type 1 matrix with parameters [3].
 
-Maximal order with D1=20: [1, 9/11*i - 2/11*j, 1/2 + 28/11*i + 1/22*j, 9/22*i - 1/11*j - 1/2*k].
-LLL-reduced Gram matrix:
+Maximal order with D1=20: [1, -9/11*i - 2/11*j, 1/2 - 28/11*i + 1/22*j, -9/22*i - 1/11*j - 1/2*k].
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  27   2]
 [ 10   2 136]
@@ -40,8 +40,8 @@ Type 2 matrix with parameters [2, 5].
 
 p = 151.
 Quaternion Algebra: i^2 = -1 and j^2 = -151.
-Maximal order with D1=20: [1, -15/14*i + 1/7*j - 1/14*k, 1/2 - 3/14*i - 1/14*j - 3/14*k, 34/7*i + 2/7*j - 1/7*k].
-LLL-reduced Gram matrix:
+Maximal order with D1=20: [1, -15/14*i - 1/7*j - 1/14*k, 1/2 - 3/14*i + 1/14*j - 3/14*k, -83/14*i + 1/7*j + 1/14*k].
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  31   2]
 [ 10   2 156]
@@ -52,10 +52,10 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 The j-invariant belongs to Fp, since D3 is between 151 and 174.
 Type 2 matrix with parameters [2, 5].
 
-Maximal order with D1=20: [1, -1/11*i - 2/11*k, -61/22*i - 1/22*k, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6  32   0]
+Maximal order with D1=20: [1, -1/11*i + 2/11*k, -61/22*i + 1/22*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6  32   0]
 [  0   0 151]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -66,8 +66,8 @@ Type 1 matrix with parameters [3].
 
 p = 191.
 Quaternion Algebra: i^2 = -1 and j^2 = -191.
-Maximal order with D1=20: [1, -5/14*i - 1/7*j - 1/14*k, 1/2 - 1/14*i + 1/14*j - 3/14*k, -7*i].
-LLL-reduced Gram matrix:
+Maximal order with D1=20: [1, -5/14*i - 1/7*j + 1/14*k, 1/2 - 1/14*i + 1/14*j + 3/14*k, -7*i].
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  39   2]
 [ 10   2 196]
@@ -79,9 +79,9 @@ The j-invariant belongs to Fp, since D3 is between 191 and 220.
 Type 2 matrix with parameters [2, 5].
 
 Maximal order with D1=20: [1, -23/12*i + 1/12*k, -13/6*i - 1/6*k, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6  40   0]
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6  40   0]
 [  0   0 191]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -93,9 +93,9 @@ Type 1 matrix with parameters [3].
 p = 211.
 Quaternion Algebra: i^2 = -1 and j^2 = -211.
 Maximal order with D1=20: [1, -17/10*i - 1/10*k, 8/5*i - 1/5*k, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6  44   0]
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6  44   0]
 [  0   0 211]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -105,7 +105,7 @@ The j-invariant belongs to Fp, since D3 is between 211 and 242.
 Type 1 matrix with parameters [3].
 
 Maximal order with D1=20: [1, 17/10*i - 1/10*k, 1/2 + 49/20*i + 3/20*k, 17/20*i + 1/2*j - 1/20*k].
-LLL-reduced Gram matrix:
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  43   2]
 [ 10   2 216]
@@ -118,10 +118,10 @@ Type 2 matrix with parameters [2, 5].
 
 p = 251.
 Quaternion Algebra: i^2 = -1 and j^2 = -251.
-Maximal order with D1=20: [1, -27/14*i - 1/14*k, 17/14*i - 3/14*k, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6  52   0]
+Maximal order with D1=20: [1, 27/14*i - 1/14*k, -17/14*i - 3/14*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6  52   0]
 [  0   0 251]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -130,8 +130,8 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 The j-invariant belongs to Fp, since D3 is between 251 and 288.
 Type 1 matrix with parameters [3].
 
-Maximal order with D1=20: [1, -27/14*i + 1/14*k, 1/2 - 61/28*i - 5/28*k, -27/28*i + 1/2*j + 1/28*k].
-LLL-reduced Gram matrix:
+Maximal order with D1=20: [1, 27/14*i + 1/14*k, 1/2 + 61/28*i - 5/28*k, 27/28*i + 1/2*j + 1/28*k].
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  51   2]
 [ 10   2 256]
@@ -144,10 +144,10 @@ Type 2 matrix with parameters [2, 5].
 
 p = 271.
 Quaternion Algebra: i^2 = -1 and j^2 = -271.
-Maximal order with D1=20: [1, -7/8*i + 1/8*k, 25/8*i + 1/8*k, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6  56   0]
+Maximal order with D1=20: [1, 7/8*i + 1/8*k, -25/8*i + 1/8*k, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6  56   0]
 [  0   0 271]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -156,8 +156,8 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 The j-invariant belongs to Fp, since D3 is between 271 and 311.
 Type 1 matrix with parameters [3].
 
-Maximal order with D1=20: [1, 5/33*i - 4/33*j - 2/33*k, 1/2 + 1/33*i + 5/66*j - 7/33*k, 547/66*i - 1/33*j - 1/66*k].
-LLL-reduced Gram matrix:
+Maximal order with D1=20: [1, -5/33*i - 4/33*j + 2/33*k, 1/2 - 1/33*i + 5/66*j + 7/33*k, 179/22*i - 1/11*j + 1/22*k].
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  55   2]
 [ 10   2 276]
@@ -170,10 +170,10 @@ Type 2 matrix with parameters [2, 5].
 
 p = 311.
 Quaternion Algebra: i^2 = -1 and j^2 = -311.
-Maximal order with D1=20: [1, -3/8*i - 1/8*k, -4*i, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6  64   0]
+Maximal order with D1=20: [1, -3/8*i + 1/8*k, -4*i, 1/2 + 1/2*j].
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6  64   0]
 [  0   0 311]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -182,8 +182,8 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 The j-invariant belongs to Fp, since D3 is between 311 and 357.
 Type 1 matrix with parameters [3].
 
-Maximal order with D1=20: [1, 31/21*i - 2/21*j, 1/2 - 8/3*i - 1/6*j, 31/42*i - 1/21*j - 1/2*k].
-LLL-reduced Gram matrix:
+Maximal order with D1=20: [1, -53/66*i - 1/11*j + 5/66*k, 1/2 - 45/22*i + 3/22*j + 3/22*k, -493/66*i - 1/11*j - 17/66*k].
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  63   2]
 [ 10   2 316]
@@ -197,9 +197,9 @@ Type 2 matrix with parameters [2, 5].
 p = 331.
 Quaternion Algebra: i^2 = -1 and j^2 = -331.
 Maximal order with D1=20: [1, -13/10*i - 1/10*k, -37/10*i + 1/10*k, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6  68   0]
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6  68   0]
 [  0   0 331]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -209,7 +209,7 @@ The j-invariant belongs to Fp, since D3 is between 331 and 380.
 Type 1 matrix with parameters [3].
 
 Maximal order with D1=20: [1, -13/10*i + 1/10*k, 1/2 + 61/20*i + 3/20*k, -13/20*i + 1/2*j + 1/20*k].
-LLL-reduced Gram matrix:
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  67   2]
 [ 10   2 336]
@@ -223,9 +223,9 @@ Type 2 matrix with parameters [2, 5].
 p = 431.
 Quaternion Algebra: i^2 = -1 and j^2 = -431.
 Maximal order with D1=20: [1, 17/12*i + 1/12*k, -19/6*i + 1/6*k, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6  88   0]
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6  88   0]
 [  0   0 431]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -234,8 +234,8 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 The j-invariant belongs to Fp, since D3 is between 431 and 494.
 Type 1 matrix with parameters [3].
 
-Maximal order with D1=20: [1, -61/33*i - 2/33*j, 1/2 + 74/33*i - 13/66*j, -61/66*i - 1/33*j - 1/2*k].
-LLL-reduced Gram matrix:
+Maximal order with D1=20: [1, -61/33*i + 2/33*j, 1/2 + 74/33*i + 13/66*j, -61/66*i + 1/33*j + 1/2*k].
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  87   2]
 [ 10   2 436]
@@ -249,9 +249,9 @@ Type 2 matrix with parameters [2, 5].
 p = 491.
 Quaternion Algebra: i^2 = -1 and j^2 = -491.
 Maximal order with D1=20: [1, -3/10*i - 1/10*k, -5*i, 1/2 + 1/2*j].
-LLL-reduced Gram matrix:
-[ 20   6   0]
-[  6 100   0]
+Reduced Gram matrix:
+[ 20  -6   0]
+[ -6 100   0]
 [  0   0 491]
 Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 [ 20   6   0]
@@ -260,8 +260,8 @@ Rearranged Gram matrix with D1 <= D2 <= D3 and angles flipped if needed:
 The j-invariant belongs to Fp, since D3 is between 491 and 562.
 Type 1 matrix with parameters [3].
 
-Maximal order with D1=20: [1, -3/10*i - 1/10*k, 1/2 + 97/20*i - 1/20*k, -3/20*i - 1/2*j - 1/20*k].
-LLL-reduced Gram matrix:
+Maximal order with D1=20: [1, -3/10*i + 1/10*k, 1/2 + 97/20*i + 1/20*k, -3/20*i + 1/2*j + 1/20*k].
+Reduced Gram matrix:
 [ 20   4  10]
 [  4  99   2]
 [ 10   2 496]
