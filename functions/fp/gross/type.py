@@ -12,7 +12,7 @@ def get_matrix_type(*args):
     [2*t  4*(p+t^2)/d  0]
     [0    0            p]
 
-    Type 2: [m, n]
+    Type 2: [m, n]; d = 4*n
     [d    2*m          2*n]
     [2*m  4*(p+m^2)/d  m  ]
     [2*n  m            p+n]
@@ -22,7 +22,7 @@ def get_matrix_type(*args):
     [2u  4*(p+u^2)/d   2*(p+u^2)/d   ]
     [u   2*(p+u^2)/d   p +(p + u^2)/d]
 
-    Type 4: [a, b]
+    Type 4: [a, b]; d = a + 2*b
     [d    a             b              ]
     [a   (4*p+a^2)/d  -(2p-ab)/d       ]
     [b  -(2p-ab)/d      p + (p + b^2)/d]

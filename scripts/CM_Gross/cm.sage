@@ -17,7 +17,7 @@ from functions.fp.gross.type import get_matrix_type
 # here p = ai mod b is a supersingular prime family.
 cm_data = {
     3: [[2], 3, 3, 5, "j(E) = 0"],
-    4: [[3], 4, 4, 11, "j(E) = 1728 = 12^3"],
+    4: [[3], 4, 4, 7, "j(E) = 1728 = 12^3"],
     7: [[3, 5, 6], 7, 7, 13, "j(E) = -15^3"],
     8: [[5, 7], 8, 8, 23, "j(E) = 20^3"],
     11: [[2, 6, 7, 8, 10], 11, 11, 29, "j(E) = -32^3"],

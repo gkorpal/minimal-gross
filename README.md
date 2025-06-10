@@ -39,13 +39,13 @@ functions/
         └── maximal.py
 ```
 
-The `__init__.py` (empty) files are required to make Python treat directories containing the file as packages. The rest of the files in each sub-directory are described below.
+The `__init__.py` (empty) files are required to make Python treat directories containing the file as packages. The rest of the files in each subdirectory are described below.
 
 #### A.1 `fp`
 Contains all functions that work only for supersingular elliptic curves with j-invariant lying in $\mathbb{F}_p$.
 - `gross`: Contains the algorithms from our paper.
     - `numeric.py` and `symbolic.py` contain SageMath implementations of our algorithm that let one compute the Gram matrix of the minimal Gross lattice given the first successive minima $D_1$ value.
-    - `type.py` contains a function to classify and extract parameters from the Gram matrix of the minimal Gross lattice into one of the four types described in the paper for the 13 CM curves over $\mathbb{Q}$.
+    - `type.py` contains a function to classify and extract parameters from the Gram matrix of the minimal Gross lattice into one of the four types described in the paper for the 13 CM curves over $\mathbb{Q}$. 
 - `ibukiyama`: `maximal.py` contains a SageMath implementation of the algorithm from [Li-Ouyang-Xu](http://staff.ustc.edu.cn/~yiouyang/curve_over_Fp_1101.pdf) that lets us compute Ibukiyama's maximal orders $O(q,r)$ and $O'(q,r)$. It also contains other helper functions to compute the Gross lattice and Gram matrix.
 
 #### A.2 `fp2`
@@ -90,7 +90,7 @@ scripts/
      └── ref/
 ```
 
-The sub-directory `ref/` contains the reference outputs of these scripts. The rest of the files in each sub-directory are described below.
+The subdirectory `ref/` contains the reference outputs of these scripts. The rest of the files in each subdirectory are described below.
 
 #### B.1 `CM_Gross`
 Contains the script that symbolically computes the Gram matrix of the minimal Gross lattice of all 13 CM curves over $\mathbb{Q}$.
@@ -98,6 +98,7 @@ Contains the script that symbolically computes the Gram matrix of the minimal Gr
 - The `ref/` directory contains outputs for all 13 values of `d`. For example, `$ sage cm.sage 163` will generate `cm_163.txt` that contains all 81 possible Gram matrices.
 
 #### B.2 `CM_Gross_finite_cases`
+**Note:** Can ignore this. We got rid of dependency on 37.
 Contains the script that computes the Eisenstein reduced Gram matrix of the Gross lattice for the CM curves over $\mathbb{Q}$ whose $N_E$ is smaller than 37.
 - One can run the script by navigating to this directory and then executing `$ sage cm_finite.sage <d>` where `<d>` is the absolute value of the CM discriminant of one of the 5 CM curves over $\mathbb{Q}$, namely $\{3,4,7,8,11\}$.
 - The `ref/` directory contains outputs for all 5 values of `d`. For example, `$ sage cm_finite.sage 8` will generate `cases_8.txt` that contains all 3 Gram matrices of interest.
@@ -133,7 +134,7 @@ Contains the script that computes Eisenstein reduced Gram matrices of all ellipt
 - The `ref/` directory contains output `csidh419.txt` with all the maximal orders and Gram matrices. From this, one can observe the $D_1$ values for all curves over $\mathbb{F}_p$ and with endomorphism ring of type $O(q,r)$.
 
 #### B.9 `toy_Kaneko`
-Contains the script to numerically compute the Gram matrix of the minimal Gross lattice of all elliptic curves given $D_1\leq \left\lceil 4\sqrt{\frac{p}{3}}\right\rceil$ and test if they belong to the isogeny graph of CSIDH for $p=419>37$.
+Contains the script to numerically compute the Gram matrix of the minimal Gross lattice of all elliptic curves given $D_1\leq \left\lceil 4\sqrt{\frac{p}{3}}\right\rceil$ and test if they belong to the isogeny graph of CSIDH for $p=419$.
 - One can run the script by navigating to this directory and then executing `$ sage csidh419kaneko.sage`.
 - The `ref/` directory contains the output `csidh419kaneko.txt` with all the Gram matrices. From this, one can observe that for the fixed prime $p=419$, we get minimal Gross lattice for $D_1 \in \{3, 4, 7, 12, 15, 16, 20, 23, 27, 28, 35, 36, 39, 43, 47\}$ which matches with the $D_1$ values obtained from `toy_Ibukiyama/`, except for $43$ and $47$.
 
