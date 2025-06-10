@@ -57,13 +57,13 @@ class SymbolicGross:
 
     def beta13(self, D1, N):
         r"""
-        Step 2: D1*D3-y^2 = 4np such that, n>=1, 0 <= y <= D1/2 and D3 is 0,3 mod 4 for p >= max(37,N_E) and j != 0 
+        Step 2: D1*D3-y^2 = 4np such that, n>=1, 0 <= y <= D1/2 and D3 is 0,3 mod 4 for p >= N_E and j != 0 
         p <= D3 <= 8p/7 + 7/4 
-        pD1 - D1^2/4 <= 4np <= 8pD1/7 + 7D1/4 for p >= 37
-        D1/4 - D1^2/16*p <= n <= 2*D1/7 + 7*D1/16*p for p >= 37
+        pD1 - D1^2/4 <= 4np <= 8pD1/7 + 7D1/4 
+        D1/4 - D1^2/16*p <= n <= 2*D1/7 + 7*D1/16*p 
         """
-        assert self.a != 2 or self.b != 3 or D1 != 3, "j-invariant can't be 0"        
-        p_bound = max(37, N)
+        assert self.a != 2 or self.b != 3 or D1 != 3, "j-invariant can't be 0"      
+        p_bound = N 
         lower = ceil(D1/4 - D1**2/(16*p_bound))
         upper = floor((2*D1)/7 + (7*D1)/(16*p_bound))
         n_values = [i for i in range(lower, upper+1)]  # multiple possible
@@ -114,6 +114,3 @@ class SymbolicGross:
             return True
         else:
             return False
-
-
-

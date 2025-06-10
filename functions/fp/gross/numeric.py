@@ -3,7 +3,7 @@ from sage.all import *
 
 class NumericGross:
     r"""
-    Given a supersingular primes p>=37 and D1, then
+    Given a supersingular primes p and D1, then
     numerically computes the reduced Gram matrix of the Gross lattice. 
     """
 
@@ -21,9 +21,9 @@ class NumericGross:
         assert isinstance(D1, (int, Integer)) and D1 > 0, "D1 must be a positive integer"
         sols = []
         for x, D2 in self.beta12(D1):
-            bound37 = self.beta13(D1)
-            if isinstance(bound37, list):
-                for y, D3 in bound37:
+            boundary = self.beta13(D1)
+            if isinstance(boundary, list):
+                for y, D3 in boundary:
                     if D2 <= D3:
                         for zsol in self.beta123(D1, D2, D3, x, y):
                             z = zsol.rhs()
@@ -49,13 +49,13 @@ class NumericGross:
 
     def beta13(self, D1):
         r"""
-        Step 2: D1*D3-y^2 = 4np such that, n>=1, 0 <= y <= D1/2 and D3 is 0,3 mod 4 for p >= max(37,N_E) and j != 0 
+        Step 2: D1*D3-y^2 = 4np such that, n>=1, 0 <= y <= D1/2 and D3 is 0,3 mod 4 for j != 0 
         p <= D3 <= 8p/7 + 7/4 
-        pD1 - D1^2/4 <= 4np <= 8pD1/7 + 7D1/4 for p >= 37
-        D1/4 - D1^2/16*p <= n <= 2*D1/7 + 7*D1/16*p for p >= 37
+        pD1 - D1^2/4 <= 4np <= 8pD1/7 + 7D1/4 
+        D1/4 - D1^2/16*p <= n <= 2*D1/7 + 7*D1/16*p
         """
         assert self.p%3 != 2 or D1 != 3, "j-invariant can't be 0"        
-        p_bound = max(37, self.p)
+        p_bound = self.p 
         lower = ceil(D1/4 - D1**2/(16*p_bound))
         upper = floor((2*D1)/7 + (7*D1)/(16*p_bound))
         n_values = [i for i in range(lower, upper+1)]  # multiple possible
@@ -99,6 +99,3 @@ class NumericGross:
             return True
         else:
             return False
-
-
-
