@@ -114,9 +114,9 @@ Contains the script that computes the j-invariants of all maximal orders with th
 - The `ref/` directory contains outputs for all 10 values of `c`. For example, `$ sage fam2mod3.sage 13 20 1000` will generate `fam2mod3_13_20_1000.txt` that contains all 10 Gram matrices of interest.
 
 #### B.5 `finite_cases`
-Contains the script that computes Eisenstein reduced Gram matrices of all maximal orders with the first successive minima equal to $D_1\leq 2*p^{2/3}$ and lying in $B_{p}$ for $p$ lying between M and N.
+Contains the script that computes Eisenstein reduced Gram matrices of all maximal orders with the first successive minima equal to $D_1\leq 2 p^{2/3}$ and lying in $B_{p}$ for $p$ lying between M and N.
 - One can run the script by navigating to this directory and then executing `$ sage finite.sage <M> <N>` where $0<M<N$.
-- The `ref/` directory contains output for finite cases to verify $D_3$ bound. For example, `$ sage finite.sage 1 100` will generate `cases_1_100.txt` that contains all Gram matrices of interest. In particular, from `cases_1_100.txt` one can observe that for the primes up to 100, $D_3 < \frac{3}{5}p+5 < p$ for curves not defined over $\mathbb{F}_p$, $D_3 = \frac{4p+1}{3}$ for $j$-invariant $=0$, and $p \leq D_3 < \frac{8}{7}p+\frac{7}{4}$ for other curves defined over $\mathbb{F}_p$.
+- The `ref/` directory contains output for finite cases to verify $D_3$ bound. For example, `$ sage finite.sage 1 100` will generate `cases_1_100.txt` that contains all Gram matrices of interest. In particular, from `cases_1_100.txt` one can observe that for the primes up to 100, $D_3 \le \frac{3}{5}p+5$ for curves not defined over $\mathbb{F}_p$, $D_3 = \frac{4p+1}{3}$ for $j$-invariant $=0$, and $p \leq D_3 \le \frac{8}{7}p+\frac{7}{4}$ for other curves defined over $\mathbb{F}_p$. Furthermore, observe that for $p = 19$ and $p=47$, we get $D_3 = \lfloor \frac{8}{7}p+\frac{7}{4} \rfloor$.
 
 #### B.6 `NE_values`
 Contains the script to estimate $N_E$, the smallest supersingular prime (greater than 3) such that for $p \geq N_E$ we get $D_1 = d$ by looking for a continuous sequence of 10 Eisenstein reduced Gram matrices.
