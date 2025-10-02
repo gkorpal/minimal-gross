@@ -2,4 +2,4 @@ j(E) = 66^3
 
 N_E is the smallest supersingular prime (greater than 3) such that for p >= N_E we get D1 = 16.
 
-We get N_E = 67 by going through the list of supersingular primes and looking for a continuous sequence of 10 Eisenstein-reduced Gram matrices with D1 = 16.
+We get N_E = 67 <= 73 by going through the list of supersingular primes and looking for a continuous sequence of Eisenstein-reduced Gram matrices with D1 = 16.

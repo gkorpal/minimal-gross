@@ -53,8 +53,9 @@ with open(os.path.join(current_dir, f"NE_{d}.txt"), "w") as file:
     file.write(f"N_E is the smallest supersingular prime (greater than 3) such that for p >= N_E we get D1 = {d}.\n\n")
 
     p = 3
+    bound = next_probable_prime(floor(((d+1)**2)/4))
     counter = 0
-    while True:
+    while p <= bound:
         p = next_probable_prime(p+1) # p+1 is always even; avoiding Pari related indexing issue.
         n = p%d
         if n in a_values:
@@ -63,10 +64,8 @@ with open(os.path.join(current_dir, f"NE_{d}.txt"), "w") as file:
                 counter += 1
                 if counter == 1:
                     N = p
-                elif counter == 10:
-                    break
             else:
                 counter = 0
-    file.write(f"We get N_E = {N} by going through the list of supersingular primes and looking for a continuous sequence of 10 Eisenstein-reduced Gram matrices with D1 = {d}.\n")
+    file.write(f"We get N_E = {N} <= {bound} by going through the list of supersingular primes and looking for a continuous sequence of Eisenstein-reduced Gram matrices with D1 = {d}.\n")
 
 
